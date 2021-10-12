@@ -1,0 +1,240 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mamak</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<style>
+/*----menu----*/	
+		#rope{
+			position: absolute;
+			margin-left: 100px;
+			animation: float 2s ease-in-out infinite;
+		}
+	
+			@keyframes float{
+	           0% {		
+		           transform: translatey(-10px);
+	              }	
+				
+	           50% {		
+		           transform: translatey(0px);
+	               }
+				
+	           100% {		
+		           transform: translatey(-10px);
+	                }
+}
+		
+		#daolang{
+			position: absolute;			
+			margin-left: 58px;
+			margin-top: -800px;
+}
+/*----jump----*/	
+		.bounce{
+			animation: bounces 1.5s;
+}		
+        @keyframes bounces {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            35% {transform: translateY(-11px);}
+            60% {transform: translateY(-11px);}
+} 
+		
+		 .box1 {
+		    position: absolute;
+            z-index: -1;
+		    left: 0px;			
+}
+
+		
+
+		/*3D*/
+		.colPos2{
+			position: absolute;
+			top: 400px;
+			left: 180px;
+			animation: floatn 2s ease-in-out infinite;
+}
+		.colPos2:hover{
+			opacity: 0.85;
+}
+		/*2D*/
+		.colPos3{
+			position: absolute;
+			top: 350px;
+			left: 600px;
+			animation: floatin 2s ease-in-out infinite;
+}
+		.colPos3:hover{
+			opacity: 0.85;
+}
+		/*video*/
+		 .colPos4{
+			position: absolute;
+			top: 330px;
+			left: 1120px;
+			animation: floatn 2s ease-in-out infinite;
+}
+		.colPos4:hover{
+			opacity: 0.85;
+}
+		/*web*/
+		 .colPos5{
+			position: absolute;
+			top: 400px;
+			left: 1480px;
+			animation: floatin 2s ease-in-out infinite;
+}
+		.colPos5:hover{
+			opacity: 0.85;
+}
+		
+		.rowPos{
+			position: absolute;		
+			
+		}
+	    
+	    .text{
+			position: absolute;
+			top: 62px;
+			left: -23px;
+			font-size: 24px;			
+			
+}
+	    .text a{
+		    text-decoration: none;
+			color: #704002;
+			font-family:"DFPYuanMXBold-B5"
+}
+
+@keyframes floatin{
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+		
+@keyframes floatn{
+	0% {
+		
+		transform: translatey(-20px);
+	}
+	50% {
+		
+		transform: translatey(0px);
+	}
+	100% {
+		
+		transform: translatey(-20px);
+	}
+}
+	.w-animate-fading{
+		animation:fading 2s infinite}
+            @keyframes fading{
+	           0%{opacity:1;
+	             }
+	           50%{opacity:0;
+	             }
+	           100%{opacity:1;
+	             }
+}
+	.animate-fading{
+		animation:fading 5s infinite}
+            @keyframes fading{
+	           0%{opacity:3;
+	             }
+	           50%{opacity:0;
+	             }
+	           100%{opacity:3;
+	             }
+}
+
+	</style>
+	
+</head>
+
+<body>
+	
+  <div class="container-fluid">
+	  <div class="row rowPos">
+		     <img class="box1" style="margin-left: -5px" src="images/allgroup/bg-02.png" width="1925" height="1080" alt=""/>		 
+		     <img class="box1 w-animate-fading" src="images/allgroup/start-01.png" width="1920" height="937" alt=""/>
+		     <img class="box1 animate-fading" src="images/allgroup/cloud-03.png" width="1920" height="937" alt=""/>
+			 <img class="box1" src="images/allgroup/bluding1-01.png" width="1920" alt=""/>
+<!--menu button-->		  
+		  <div class="col">      
+		    <div id="rope">
+				<a href="#"><img src="images/rope-02.png" width="44" height="145" alt=""/></a>
+			</div>   		  
+			 <div id="daolang">
+				 <a href="#"><img src="images/導覽-03.png" width="129" height="735" alt=""/></a>
+				 <ul class="text">
+					 <a href="start.html"><p style="margin-left: 23px">首頁</p></a>					 
+					 <a href="school.html"><p style="margin-top: 48px">校系介紹</p></a>
+					 <a href="teacher.html"><p style="margin-top: 48px">導師簡介</p></a>
+					 <a href="annualtheme.html"><p style="margin-top: 48px">年度主題</p></a>
+					 <a href="allgroup.html"><p style="margin-top: 48px">畢業作品</p></a>
+					 <a href="student.html"><p style="margin-top: 48px">畢業學生</p></a>
+					 <a href="timeline.html"><p style="margin-top: 48px;margin-left: 10px">大事記</p></a>
+				 </ul>				 				 
+		     </div>			 
+	    </div>	  
+	  
+	   
+		  <div class="col colPos2">
+				 <a href="3D.html">
+					 <img src="images/allgroup/3D-02.png" width="236" height="170" alt=""/>
+				 </a>
+		  </div>
+		  <div class="col colPos3">
+			     <a href="2D.html">
+					 <img src="images/allgroup/2D-02.png" width="236" height="170" alt=""/>
+				 </a>
+		  </div>
+		  <div class="col colPos4">
+	             <a href="flim.html">
+					 <img src="images/allgroup/video-02.png" width="236" height="170" alt=""/>
+				 </a>
+		  </div>
+		  <div class="col colPos5">			     
+			     <a href="web.html">						 
+					 <img src="images/allgroup/duomeiti-02.png" width="236" height="170" alt=""/>
+				 </a>			    
+          </div>
+		
+	 </div> 	  
+ </div>
+	
+ 
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+<script>
+//menu//
+	$(function(){		
+		$("#rope").click(function(){
+			$("#daolang").addClass("bounce").animate({"marginTop":"-10px"},800)			
+			$("#rope").hide();
+		})
+		$("#daolang").click(function(){
+			$("#daolang").removeClass("bounce").animate({"marginTop":"-800px"},800)
+			$("#rope").show();
+		})
+	})
+	
+
+</script>
+	
+</body>
+</html>

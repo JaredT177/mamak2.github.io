@@ -1,0 +1,670 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mamak</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<style>
+/*----menu----*/	
+		#rope{
+			position: absolute;
+			margin-left: 100px;
+			animation: float 2s ease-in-out infinite;
+}
+		
+			@keyframes float{
+	           0% {		
+		           transform: translatey(-10px);
+	              }	
+				
+	           50% {		
+		           transform: translatey(0px);
+	               }
+				
+	           100% {		
+		           transform: translatey(-10px);
+	                }
+}
+		
+		#daolang{
+			position: absolute;			
+			margin-left: 58px;
+			margin-top: -800px;
+}
+/*----jump----*/
+		.bounce{
+			animation: bounces 1.5s;
+}		
+        @keyframes bounces {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            35% {transform: translateY(-11px);}
+            60% {transform: translateY(-11px);}
+} 
+
+		 .box1 {
+		 position: absolute;
+         z-index: -1;
+		 margin-left: 0px;
+		 margin-top: 0px;         
+}
+
+		.rowPos{
+			position: absolute;		
+			
+}
+	    .text{
+			position: absolute;
+			top: 62px;
+			left: -23px;
+			font-size: 24px;			
+			
+}
+	    .text a{
+		    text-decoration: none;
+			color: #704002;
+			font-family:"DFPYuanMXBold-B5"
+}
+
+/*left right button*/
+		.left{
+			z-index: -1;
+			top: 520px;
+			left: 190px;
+}
+		.left:hover{
+			opacity: 0.8;
+}
+		.right{
+			z-index: -1;
+			top: 520px;
+			left: 1350px;
+}
+		.right:hover{
+			opacity: 0.8;
+}
+		
+		.mySlides {
+			display:none;
+}		
+/*teacherbox*/
+		.teacherbox{
+			position: absolute;
+			z-index: -1;
+			top: 300px;
+			left: 270px;
+}
+/*teacher*/
+		.teacher1{
+			position: absolute;
+			top: 20px;
+			left: 100px;
+}
+		.teacher2{
+			position: absolute;
+			top: 20px;
+			left: 350px;
+}
+		.teacher3{
+			position: absolute;
+			top: 20px;
+			left: 600px;
+}
+		.teacher4{
+			position: absolute;
+			top: 20px;
+			left: 850px;
+}		
+		.teacher5{
+			position: absolute;
+			top: 20px;
+			left: 1100px;
+}
+		.teacher6{
+			position: absolute;
+			top: 280px;
+			left: 100px;
+}
+		.teacher7{
+			position: absolute;
+			top: 280px;
+			left: 350px;
+}
+		.teacher8{
+			position: absolute;
+			top: 280px;
+			left: 600px;
+}
+		.teacher9{
+			position: absolute;
+			top: 280px;
+			left: 850px;
+}
+		.teacher10{
+			position: absolute;
+			top: 280px;
+			left: 1100px;
+}
+		.teacher11{
+			position: absolute;
+			top: 20px;
+			left: 100px;
+}
+		.teacher12{
+			position: absolute;
+			top: 20px;
+			left: 350px;
+}
+		.teacher13{
+			position: absolute;
+			top: 20px;
+			left: 600px;
+}
+		.teacher14{
+			position: absolute;
+			top: 20px;
+			left: 850px;
+}		
+		.teacher15{
+			position: absolute;
+			top: 20px;
+			left: 1100px;
+}
+		.teacher16{
+			position: absolute;
+			top: 280px;
+			left: 100px;
+}
+		.teacher17{
+			position: absolute;
+			top: 280px;
+			left: 350px;
+}
+		.teacher18{
+			position: absolute;
+			top: 280px;
+			left: 600px;
+}
+		.teacher19{
+			position: absolute;
+			top: 280px;
+			left: 850px;
+}
+		.teacher20{
+			position: absolute;
+			top: 280px;
+			left: 1100px;
+}
+		.teacher21{
+			position: absolute;
+			top: 20px;
+			left: 100px;
+}
+		.teacher22{
+			position: absolute;
+			top: 20px;
+			left: 350px;
+}
+		.teacher23{
+			position: absolute;
+			top: 20px;
+			left: 600px;
+}
+		.teacher24{
+			position: absolute;
+			top: 20px;
+			left: 850px;
+}		
+		.teacher25{
+			position: absolute;
+			top: 20px;
+			left: 1100px;
+}
+		.teacher26{
+			position: absolute;
+			top: 280px;
+			left: 100px;
+}
+		.teacher27{
+			position: absolute;
+			top: 280px;
+			left: 350px;
+}
+		.teacher28{
+			position: absolute;
+			top: 280px;
+			left: 600px;
+}
+		.teacher29{
+			position: absolute;
+			top: 280px;
+			left: 850px;
+}
+		.teacher30{
+			position: absolute;
+			top: 280px;
+			left: 1100px;
+}
+		.teacher31{
+			position: absolute;
+			top: 20px;
+			left: 100px;
+}
+		.teacher32{
+			position: absolute;
+			top: 20px;
+			left: 350px;
+}
+		.teacher33{
+			position: absolute;
+			top: 20px;
+			left: 600px;
+}
+		.teacher34{
+			position: absolute;
+			top: 20px;
+			left: 850px;
+}		
+		.teacher35{
+			position: absolute;
+			top: 20px;
+			left: 1100px;
+}
+		.teacher36{
+			position: absolute;
+			top: 280px;
+			left: 100px;
+}
+		.teacher37{
+			position: absolute;
+			top: 280px;
+			left: 350px;
+}
+
+	</style>
+</head>
+
+<body>
+<div class="container-fluid">
+	 <div class="row rowPos">		  
+          <img class="box1" src="images/teacher/teacherbg.jpg" width="1920" height="1080" alt=""/>
+<!--menu button-->		  
+		  <div class="col">      
+		    <div id="rope">
+				<a href="#"><img src="images/rope-02.png" width="44" height="145" alt=""/></a>
+			</div>   		  
+			 <div id="daolang">
+				 <a href="#"><img src="images/導覽-03.png" width="129" height="735" alt=""/></a>
+				 <ul class="text">
+					 <a href="start.html"><p style="margin-left: 23px">首頁</p></a>					 
+					 <a href="school.html"><p style="margin-top: 48px">校系介紹</p></a>
+					 <a href="teacher.html"><p style="margin-top: 48px">導師簡介</p></a>
+					 <a href="annualtheme.html"><p style="margin-top: 48px">年度主題</p></a>
+					 <a href="allgroup.html"><p style="margin-top: 48px">畢業作品</p></a>
+					 <a href="student.html"><p style="margin-top: 48px">畢業學生</p></a>
+					 <a href="timeline.html"><p style="margin-top: 48px;margin-left: 10px">大事記</p></a>
+				 </ul>				 				 
+		     </div>			 
+	    </div>
+<!--teacher /1-10/-->
+		  <div class="col mySlides teacherbox">
+	<!--teacher 01-->		  				  
+		      <div class="teacher1">				    
+				    <a href="teacher1.html">
+					     <img src="images/teacher/xiaozhang2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/xiaozhang-01.png'"
+						   onMouseOut="this.src='images/teacher/xiaozhang2-01.png'"/>
+				    </a>
+		    </div>
+	<!--teacher 02-->		  				  
+		      <div class="teacher2">
+				    <a href="teacher2.html">
+					     <img src="images/teacher/xinxin2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/xinxin-01.png'"
+						   onMouseOut="this.src='images/teacher/xinxin2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 03-->		  				  
+		      <div class="teacher3">
+				    <a href="teacher3.html">
+					     <img src="images/teacher/guowei2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/guowei-01.png'"
+						   onMouseOut="this.src='images/teacher/guowei2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 04-->		  				  
+		      <div class="teacher4">
+				    <a href="teacher4.html">
+					     <img src="images/teacher/guanhua2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/guanhua-01.png'"
+						   onMouseOut="this.src='images/teacher/guanhua2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 05-->		  				  
+		      <div class="teacher5">
+				    <a href="teacher5.html">
+					     <img src="images/teacher/ren2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/ren-01.png'"
+						   onMouseOut="this.src='images/teacher/ren2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 06-->		  				  
+		      <div class="teacher6">
+				    <a href="teacher6.html">
+					     <img src="images/teacher/zhang2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/zhang-01.png'"
+						   onMouseOut="this.src='images/teacher/zhang2-01.png'"/>
+				    </a>
+			  </div>
+	<!--teacher 07-->		  				  
+		      <div class="teacher7">
+				    <a href="teacher7.html">
+					     <img src="images/teacher/shuni2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/shuni-01.png'"
+						   onMouseOut="this.src='images/teacher/shuni2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 08-->		  				  
+		      <div class="teacher8">
+				    <a href="teacher8.html">
+					     <img src="images/teacher/qidong2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/qidong-01.png'"
+						   onMouseOut="this.src='images/teacher/qidong2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 09-->		  				  
+		      <div class="teacher9">
+				    <a href="teacher9.html">
+					     <img src="images/teacher/lee2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/lee-01.png'"
+						   onMouseOut="this.src='images/teacher/lee2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 10-->		  				  
+		      <div class="teacher10">
+				    <a href="teacher10.html">
+					     <img src="images/teacher/zhuren2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/zhuren-01.png'"
+						   onMouseOut="this.src='images/teacher/zhuren2-01.png'"/>
+				    </a>
+			  </div>
+		 </div>
+<!--student /11-20/-->	  
+		  <div class="col mySlides teacherbox">
+	<!--teacher 11-->		  				  
+		      <div class="teacher11">				    
+				    <a href="teacher11.html">
+					     <img src="images/teacher/laoma2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/laoma-01.png'"
+						   onMouseOut="this.src='images/teacher/laoma2-01.png'"/>
+				    </a>
+		    </div>
+	<!--teacher 12-->		  				  
+		      <div class="teacher12">
+				    <a href="teacher12.html">
+					     <img src="images/teacher/qiu2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/qiu-01.png'"
+						   onMouseOut="this.src='images/teacher/qiu2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 13-->		  				  
+		      <div class="teacher13">
+				    <a href="teacher13.html">
+					     <img src="images/teacher/andy2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/andy-01.png'"
+						   onMouseOut="this.src='images/teacher/andy2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 14-->		  				  
+		      <div class="teacher14">
+				    <a href="teacher14.html">
+					     <img src="images/teacher/zhou2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/zhou-01.png'"
+						   onMouseOut="this.src='images/teacher/zhou2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 15-->		  				  
+		      <div class="teacher15">
+				    <a href="teacher15.html">
+					     <img src="images/teacher/laohe2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/laohe-01.png'"
+						   onMouseOut="this.src='images/teacher/laohe2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 16-->		  				  
+		      <div class="teacher16">
+				    <a href="teacher16.html">
+					     <img src="images/teacher/deng2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/deng-01.png'"
+						   onMouseOut="this.src='images/teacher/deng2-01.png'"/>
+				    </a>
+			  </div>
+	<!--teacher 17-->		  				  
+		      <div class="teacher17">
+				    <a href="teacher17.html">
+					     <img src="images/teacher/wenju2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/wenju-01.png'"
+						   onMouseOut="this.src='images/teacher/wenju2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 18-->		  				  
+		      <div class="teacher18">
+				    <a href="teacher18.html">
+					     <img src="images/teacher/3d2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/3d-01.png'"
+						   onMouseOut="this.src='images/teacher/3d2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 19-->		  				  
+		      <div class="teacher19">
+				    <a href="teacher19.html">
+					     <img src="images/teacher/lim2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/lim-01.png'"
+						   onMouseOut="this.src='images/teacher/lim2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 20-->		  				  
+		      <div class="teacher20">
+				    <a href="teacher20.html">
+					     <img src="images/teacher/hou2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/hou-01.png'"
+						   onMouseOut="this.src='images/teacher/hou2-01.png'"/>
+				    </a>
+			  </div>
+		 </div>
+<!--student /21-30/-->	  
+		  <div class="col mySlides teacherbox">
+	<!--teacher 21-->		  				  
+		      <div class="teacher21">				    
+				    <a href="teacher21.html">
+					     <img src="images/teacher/eng2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/eng-01.png'"
+						   onMouseOut="this.src='images/teacher/eng2-01.png'"/>
+				    </a>
+		    </div>
+	<!--teacher 22-->		  				  
+		      <div class="teacher22">
+				    <a href="teacher22.html">
+					     <img src="images/teacher/freddy2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/freddy-01.png'"
+						   onMouseOut="this.src='images/teacher/freddy2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 23-->		  				  
+		      <div class="teacher23">
+				    <a href="teacher23.html">
+					     <img src="images/teacher/music2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/music-01.png'"
+						   onMouseOut="this.src='images/teacher/music2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 24-->		  				  
+		      <div class="teacher24">
+				    <a href="teacher24.html">
+					     <img src="images/teacher/jiaqi2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/jiaqi-01.png'"
+						   onMouseOut="this.src='images/teacher/jiaqi2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 25-->		  				  
+		      <div class="teacher25">
+				    <a href="teacher25.html">
+					     <img src="images/teacher/dexin2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/dexin-01.png'"
+						   onMouseOut="this.src='images/teacher/dexin2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 26-->		  				  
+		      <div class="teacher26">
+				    <a href="teacher26.html">
+					     <img src="images/teacher/tailin2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/tailin-01.png'"
+						   onMouseOut="this.src='images/teacher/tailin2-01.png'"/>
+				    </a>
+			  </div>
+	<!--teacher 27-->		  				  
+		      <div class="teacher27">
+				    <a href="teacher27.html">
+					     <img src="images/teacher/wang2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/wang-01.png'"
+						   onMouseOut="this.src='images/teacher/wang2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 28-->		  				  
+		      <div class="teacher28">
+				    <a href="teacher28.html">
+					     <img src="images/teacher/quan2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/quan-01.png'"
+						   onMouseOut="this.src='images/teacher/quan2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 29-->		  				  
+		      <div class="teacher29">
+				    <a href="teacher29.html">
+					     <img src="images/teacher/cai2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/cai-01.png'"
+						   onMouseOut="this.src='images/teacher/cai2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 30-->		  				  
+		      <div class="teacher30">
+				    <a href="teacher30.html">
+					     <img src="images/teacher/yi2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/yi-01.png'"
+						   onMouseOut="this.src='images/teacher/yi2-01.png'"/>
+				    </a>
+			  </div>
+		 </div>
+<!--student /31-37/-->	  
+		  <div class="col mySlides teacherbox">
+	<!--teacher 31-->		  				  
+		      <div class="teacher31">				    
+				    <a href="teacher31.html">
+					     <img src="images/teacher/jijun2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/jijun-01.png'"
+						   onMouseOut="this.src='images/teacher/jijun2-01.png'"/>
+				    </a>
+		    </div>
+	<!--teacher 32-->		  				  
+		      <div class="teacher32">
+				    <a href="teacher32.html">
+					     <img src="images/teacher/fu2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/fu-01.png'"
+						   onMouseOut="this.src='images/teacher/fu2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 33-->		  				  
+		      <div class="teacher33">
+				    <a href="teacher33.html">
+					     <img src="images/teacher/yulin2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/yulin-01.png'"
+						   onMouseOut="this.src='images/teacher/yulin2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 34-->		  				  
+		      <div class="teacher34">
+				    <a href="teacher34.html">
+					     <img src="images/teacher/linyang2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/linyang-01.png'"
+						   onMouseOut="this.src='images/teacher/linyang2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 35-->		  				  
+		      <div class="teacher35">
+				    <a href="teacher35.html">
+					     <img src="images/teacher/yuping2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/yuping-01.png'"
+						   onMouseOut="this.src='images/teacher/yuping2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--teacher 36-->		  				  
+		      <div class="teacher36">
+				    <a href="teacher36.html">
+					     <img src="images/teacher/kaiqi2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/kaiqi-01.png'"
+						   onMouseOut="this.src='images/teacher/kaiqi2-01.png'"/>
+				    </a>
+			  </div>
+	<!--teacher 37-->		  				  
+		      <div class="teacher37">
+				    <a href="teacher37.html">
+					     <img src="images/teacher/shejian2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/teacher/shejian-01.png'"
+						   onMouseOut="this.src='images/teacher/shejian2-01.png'"/>
+				    </a>
+			  </div>
+		 </div>
+<!--button left right-->	  
+              <div class="col left" onclick="plusDivs(-1)">				  
+				  <a href="#"><img src="images/tongxue/buttom1-02.png" width="100" height="90" alt=""/></a>
+			  </div>
+			  
+              <div class="col right" onclick="plusDivs(1)">
+				  <a href="#"><img src="images/tongxue/buttom-02.png" width="100" height="90" alt=""/></a>				  
+			  </div>
+		 
+	</div>		  
+</div>	  
+	
+ 
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+<script>
+//left right//
+	var slideIndex = 1;
+       showDivs(slideIndex);
+
+    function plusDivs(n) {
+       showDivs(slideIndex += n);
+}
+
+    function showDivs(n) {
+       var i;
+       var x = document.getElementsByClassName("mySlides");
+       if (n > x.length) {slideIndex = 1}    
+       if (n < 1) {slideIndex = x.length}
+       for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+       }
+       x[slideIndex-1].style.display = "block";  
+}
+
+	
+//menu//	
+	$(function(){		
+		$("#rope").click(function(){
+			$("#daolang").addClass("bounce").animate({"marginTop":"-10px"},800)
+			$("#rope").hide();
+		})
+		$("#daolang").click(function(){
+			$("#daolang").removeClass("bounce").animate({"marginTop":"-800px"},800)
+			$("#rope").show();
+		})
+	})
+
+</script>	
+	
+</body>
+</html>

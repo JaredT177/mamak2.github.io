@@ -1,0 +1,263 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mamak</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<style>
+
+/*----menu----*/		
+		#rope{
+			position: absolute;
+			margin-left: 100px;
+			animation: float 2s ease-in-out infinite;
+}
+			@keyframes float{
+	           0% {		
+		           transform: translatey(-10px);
+	              }	
+				
+	           50% {		
+		           transform: translatey(0px);
+	               }
+				
+	           100% {		
+		           transform: translatey(-10px);
+	                }
+}
+		
+		#daolang{
+			position: absolute;			
+			margin-left: 58px;
+			margin-top: -800px;
+}
+/*----jump----*/		
+		.bounce{
+			animation: bounces 1.5s;
+}		
+        @keyframes bounces {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            35% {transform: translateY(-11px);}
+            60% {transform: translateY(-11px);}
+} 
+
+
+		 .box1 {
+		    position: absolute;
+            z-index: -1;
+		    margin-left: 0px;
+		    margin-top: 0px;         
+}
+
+		.rowPos{
+			position: absolute;		
+			
+}
+	    .text{
+			position: absolute;
+			top: 62px;
+			left: -23px;
+			font-size: 24px;			
+			
+}
+	    .text a{
+		    text-decoration: none;
+			color: #704002;
+			font-family:"DFPYuanMXBold-B5"
+}
+		#img1{
+			position: absolute;
+			top: 100px;
+			left: 275px;			
+}
+		#img2{
+			position: absolute;
+			top: 100px;
+			left: 275px;
+			opacity: 0.9;
+}
+		.left{
+			top: 470px;
+			left: 170px;
+}
+		.left:hover{
+			opacity: 0.7;
+}
+		.right{
+			top: 470px;
+			left: 1390px;
+}
+		.right:hover{
+			opacity: 0.7;
+}
+		.school{
+			position: absolute;
+			z-index: -1;
+}
+		.school2{
+			position: absolute;
+			z-index: -1;
+}
+		.schooltext{
+			text-decoration: none;
+			color: #0E0E0E;
+			font-family:"DFPYuanMXBold-B5";
+			background-color:rgba(255,255,255,0.5);			
+			font-size: 20px;		
+			margin-left: 50px;
+			margin-top: 160px;
+			width: 1205px;
+			height: 490px;
+}
+		.schooltext2{
+			text-decoration: none;
+			color: #0E0E0E;
+			font-family:"DFPYuanMXBold-B5";
+			background-color:rgba(255,255,255,0.5);			
+			font-size: 20px;		
+			margin-left: 48px;
+			margin-top: 160px;
+			width: 1205px;
+			height: 490px;
+}
+		
+		.mySlides {
+			display:none;
+}		
+
+	</style>
+</head>
+
+<body>
+<div class="container-fluid">
+	 <div class="row rowPos">		  
+          <img class="box1" src="images/school/schoolbg-01.jpg" width="1920" height="1080" alt=""/>
+<!--menu button-->		  
+		  <div class="col">      
+		    <div id="rope">
+				<a href="#"><img src="images/rope-02.png" width="44" height="145" alt=""/></a>
+			</div>   		  
+			 <div id="daolang">
+				 <a href="#"><img src="images/導覽-03.png" width="129" height="735" alt=""/></a>
+				 <ul class="text">
+					 <a href="start.html"><p style="margin-left: 23px">首頁</p></a>					 
+					 <a href="school.html"><p style="margin-top: 48px">校系介紹</p></a>
+					 <a href="teacher.html"><p style="margin-top: 48px">導師簡介</p></a>
+					 <a href="annualtheme.html"><p style="margin-top: 48px">年度主題</p></a>
+					 <a href="allgroup.html"><p style="margin-top: 48px">畢業作品</p></a>
+					 <a href="student.html"><p style="margin-top: 48px">畢業學生</p></a>
+					 <a href="timeline.html"><p style="margin-top: 48px;margin-left: 10px">大事記</p></a>
+				 </ul>				 				 
+		     </div>			 
+	    </div>
+<!--立校宗旨-->	
+			  <div class="col mySlides" id="img1">				 
+				    <a href="#"><img class="school2" src="images/school/school-04.png" width="1300" height="695" alt=""/></a>
+				    <ul class="schooltext2">
+						<p><br>
+                           銘傳大學包創辦人自創校之初即本土化的教育模式，以人之兒女，己之兒女、嚴管勤教、術德兼修、理論與實務並重，科技與人<br>
+                           文兼顧為教育的指導方針，以期為國育才，報效國家，並將教育的內容建立在實際的生活領域之內，培養學生知行合一，手腦並<br>
+                           用，進而促進知識產業化，產業知識化的雙贏局面。<br><br>
+
+                           台灣在未來，勢必須與全世界競爭。因此，在維持本校原有的優良傳統外，亦須培育足以具備和世界競爭的國際化人才。隨著全<br>
+                           球化腳步的逼近，銘傳大學除了需不斷汲取國外教育成功經驗外，更應納入自己文化體系，強調台灣主題的價值。因為，唯有通<br>
+                           融中西方的教育價值，將「全球知識在地化，在地知識全球化」，方能在全球的教育體系產生影響力。而本校於民國 99 年順利<br>
+                           通過 MSCHE 認證，成為亞洲第一所美國認證大學，透過這個品鑒制度來確保學校的辦學品質、讓入學的美國學生，取得聯邦政<br>
+                           府貸款基本資格、簡化學生轉學的學分轉換作業與贏得企業雇主信心等，讓銘傳大學的教育得以與世界接軌，進而提高銘傳的國<br>
+                           際知名度。<br><br>
+							
+                           二十一世紀是一個知識經濟掛帥的時代，也是一個全球化的時代。本校在面臨此一充滿挑戰性的新世紀，是以新方法及新知識來<br>
+                           加以因應，以追求創新與卓越為其經，以努力競爭與超越為其緯。在此莫之能禦的大趨勢下，本校早已掌握發展方向，以與快速<br>
+                           變遷的時代接軌。如此一來，銘傳大學方能加大全球化與國際化的步伐，提升整體之競爭優勢。
+					    </p>
+					</ul>
+	          </div>
+<!--關於海青-->	
+			  <div class="col mySlides" id="img2">				 
+				    <a href="#"><img class="school" src="images/school/school2-04.png" width="1300" height="695" alt=""/></a>					 
+				    <ul class="schooltext">
+						<p><br><br>
+							海外青年技術訓練班（以下簡稱海青班）係由僑務委員會於民國52年（1963）創辦，為鼓勵全球海外青年來臺習得一技之長，<br>
+                            特別委請設備完整之大學院校辦理海外青年技術訓練班。因我僑民旅居海外，以東南亞地區人數最多，華僑在教育，文化及經營<br>
+                            事業方面，對於專門技術人才需求與日俱增，政府患爰使返回僑居地工作，得以促進僑社安定，繁榮產業經營，促進當地經濟發<br>
+                            展，協助台商企業發展，並開拓與台灣之經貿往來關係。<br><br>
+
+                            銘傳大學海青班於2005年（93學年度下學期）開辦第24期，已有11期畢業生，目前就讀本校之學員大多來自於馬來西亞，印<br>
+                            尼，少數來自東南亞其他地區如越南，緬甸以及來自美洲地區巴西，美國等地。
+					    </p>
+					</ul>				 				 			  				 
+	          </div>
+<!--button left right-->	  
+              <div class="col left" onclick="plusDivs(-1)">				  
+				  <a href="#"><img src="images/tongxue/buttom1-02.png" width="100" height="90" alt=""/></a>
+			  </div>
+			  
+              <div class="col right" onclick="plusDivs(1)">
+				  <a href="#"><img src="images/tongxue/buttom-02.png" width="100" height="90" alt=""/></a>				  
+			  </div>
+		 
+	</div>		  
+</div>	  
+	
+ 
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+<script>
+//left right//	
+	var slideIndex = 1;
+       showDivs(slideIndex);
+
+    function plusDivs(n) {
+       showDivs(slideIndex += n);
+}
+
+    function showDivs(n) {
+       var i;
+       var x = document.getElementsByClassName("mySlides");
+       if (n > x.length) {slideIndex = 1}    
+       if (n < 1) {slideIndex = x.length}
+       for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+       }
+       x[slideIndex-1].style.display = "block";  
+}
+
+//menu//	
+	$(function(){		
+		$("#rope").click(function(){
+			$("#daolang").addClass("bounce").animate({"marginTop":"-10px"},800)
+			$("#rope").hide();
+		})
+		$("#daolang").click(function(){
+			$("#daolang").removeClass("bounce").animate({"marginTop":"-800px"},800)
+			$("#rope").show();
+		})
+	})
+//--立校宗旨--//	
+	$(function(){
+		$(".schooltext").hide();
+		$(".school").click(function(){
+			$(".schooltext").fadeIn(1000);			
+		})
+		$(".schooltext").click(function(){
+			$(".schooltext").fadeOut(1000);			
+		})
+	})
+//--關於海青--//
+	$(function(){
+		$(".schooltext2").hide();
+		$(".school2").click(function(){
+			$(".schooltext2").fadeIn(1000);			
+		})
+		$(".schooltext2").click(function(){
+			$(".schooltext2").fadeOut(1000);			
+		})
+	})
+
+</script>	
+	
+</body>
+</html>

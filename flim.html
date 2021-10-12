@@ -1,0 +1,809 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mamak</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+	<style>
+		
+
+		@keyframes floatin{
+	         0% {		
+		         transform: translatey(0px);
+	         }
+	         50% {		
+		         transform: translatey(-20px);
+	         }
+	         100% {		
+		         transform: translatey(0px);
+	         }
+}
+		@keyframes floatn{
+	         0% {		
+		         transform: translatey(-20px);
+	         }
+	         50% {		
+		         transform: translatey(0px);
+	         }
+	         100% {		
+		         transform: translatey(-20px);
+	         }
+}
+		@keyframes floa{
+	         0% {		
+		         transform: translatey(0px);
+	         }
+	         50% {		
+		         transform: translatey(-10px);
+	         }
+	         100% {		
+		         transform: translatey(0px);
+	         }
+}
+/*----jump----*/	
+		.bounce{
+			animation: bounces 1.5s;
+}		
+        @keyframes bounces {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            35% {transform: translateY(-11px);}
+            60% {transform: translateY(-11px);}
+} 
+
+/*----menu----*/		
+		#rope{
+			position: absolute;
+			z-index: -1;
+			left: 100px;
+			animation: float 2s ease-in-out infinite;
+}
+			@keyframes float{
+	           0% {		
+		           transform: translatey(-10px);
+	              }	
+				
+	           50% {		
+		           transform: translatey(0px);
+	               }
+				
+	           100% {		
+		           transform: translatey(-10px);
+	                }
+}
+		
+		#daolang{
+			position: absolute;				
+			left: 58px;
+			top:0;
+			margin-top: -800px;
+}
+
+/*----imagebox----*/
+		.imagebg{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.imagebg img{			
+			margin-top: 200px;
+			margin-left: 550px;
+}
+		.imagebg1{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.imagebg1 img{
+			width: 1000px;
+			margin-top: 200px;
+			margin-left: 470px;
+}
+
+/*----posterbox----*/
+		.posterbg{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.posterbg img{
+			margin-top: 25px;
+			margin-left: 630px;
+}
+		.posterbg1{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.posterbg1 img{
+			margin-top: 90px;
+			margin-left: 630px;
+}
+
+
+/*----daolang text----*/
+		.rowPos{
+			position: absolute;		
+			
+}
+	    .text{
+			position: absolute;
+			top: 62px;
+			left: -23px;
+			font-size: 24px;			
+			
+}
+	    .text a{
+		    text-decoration: none;
+			color: #704002;
+			font-family:"DFPYuanMXBold-B5";
+}
+/*----back all ground buttom----*/
+		.backall{
+			position: absolute;
+			z-index: -1;
+			top: 50px;
+			left: 1650px;		    
+}
+		.backall:hover{
+            opacity: 0.7;
+}
+/*background*/
+		.box1 {
+		    position: absolute;
+            z-index: -1;
+		    margin-left: 0px;
+		    margin-top: 0px;
+}		
+		
+		.box2 {
+		    position: absolute;
+		    margin-left: 130px;
+		    margin-top: -10px;
+		 
+}
+/*-----------group-----------*/
+		
+/*--shoe--*/
+		#shoe{
+			position: absolute;
+			z-index: -1;
+			top: 250px;
+			left: 15px;
+			animation: floatin 2s ease-in-out infinite;
+}
+		#shoe:hover{
+            opacity: 0.85;
+}
+		#shoebox{
+			position: absolute;
+			z-index: -1;
+			left: 100px;
+			margin-top: -900px;			
+}
+/*--scars--*/
+		#scars{
+			position: absolute;
+			z-index: -1;
+			top: 180px;
+			left: 340px;
+			animation: floatn 2s ease-in-out infinite;
+}
+		#scars:hover{
+            opacity: 0.85;
+}
+		#scarsbox{
+			position: absolute;
+			z-index: -1;
+			left: 70px;
+			margin-top: -900px;
+}
+
+/*--sugar--*/
+		#sugar{
+			position: absolute;
+			z-index: -1;
+			top: 300px;
+			left: 780px;
+			animation: floa 1.5s ease-in-out infinite;
+}
+		#sugar:hover{
+            opacity: 0.85;
+}
+		#sugarbox{
+			position: absolute;
+			z-index: -1;
+			left: 40px;
+			margin-top: -900px;
+}
+
+/*------box------*/
+/*--story&line--*/
+		.story{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 15px;
+			top: 600px;
+			left: 355px;
+}
+		.line{
+			position: absolute;
+			top: 195px;
+			left: 975px;
+			height: 318px;
+}
+		.linetext{
+			position: absolute;
+			top: 580px;
+			left: 400px;			
+}
+		.linetext2{
+			position: absolute;
+			top: 580px;
+			left: 885px;			
+}
+/*--backbutton--*/
+		.back{
+			position: absolute;
+			top: 150px;
+			left: 1350px;			
+}
+		.back:hover{
+            opacity: 0.7;
+}
+
+/*----shoe----*/
+	    .shoevideo{
+		    position: absolute;
+		    top: 195px;
+		    left: 355px;
+		    width: 560px; 
+}
+	    .shoeposter{
+			position: absolute;
+			top: 195px;
+			left: 1040px;			
+}
+/*shoestory*/
+		.shoestory{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 510px;
+}
+
+/*shoeCharacter*/
+		.shoestory2{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 1000px;
+}
+
+/*shoeimage*/
+		.shoeimage{
+			position: absolute;
+			top: 600px;
+			left: 850px;
+}
+		.shoeimage2{
+			position: absolute;
+			top: 700px;
+			left: 850px;
+}
+/*----scars----*/
+	    .scarsvideo{
+		    position: absolute;
+		    top: 195px;
+		    left: 355px;
+		    width: 560px; 
+}
+	    .scarsposter{
+			position: absolute;
+			top: 195px;
+			left: 1040px;			
+}
+/*scarsstory*/
+		.scarsstory{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 510px;
+}
+/*scarsCharacter*/
+		.scarsstory2{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 985px;
+}
+/*scarsimage*/
+		.scarsimage{
+			position: absolute;
+			top: 600px;
+			left: 850px;
+}
+		.scarsimage2{
+			position: absolute;
+			top: 700px;
+			left: 850px;
+}
+/*----sugar----*/
+	    .sugarvideo{
+		    position: absolute;
+		    top: 195px;
+		    left: 355px;
+		    width: 560px; 
+}
+	    .sugarposter{
+			position: absolute;
+			top: 195px;
+			left: 1040px;			
+}
+/*sugarstory*/
+		.sugarstory{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 510px;
+}
+/*sugarCharacter*/
+		.sugarstory2{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 985px;
+}
+/*sugarimage*/
+		.sugarimage{
+			position: absolute;
+			top: 600px;
+			left: 850px;
+}
+		.sugarimage2{
+			position: absolute;
+			top: 700px;
+			left: 850px;
+}
+		
+/*name*/
+		.name1{
+			position: absolute;
+			top: 273px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name1:hover{
+			opacity: 1;
+		}
+		.name2{
+			position: absolute;
+			top: 412px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name2:hover{
+			opacity: 1;
+		}
+		.name3{
+			position: absolute;
+			top: 552px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name3:hover{
+			opacity: 1;
+		}
+		.name4{
+			position: absolute;
+			top: 273px;
+			left: 1369px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name4:hover{
+			opacity: 1;
+		}
+		.name5{
+			position: absolute;
+			top: 412px;
+			left: 1369px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name5:hover{
+			opacity: 1;
+		}
+		.name6{
+			position: absolute;
+			top: 552px;
+			left: 1369px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name6:hover{
+			opacity: 1;
+		}
+		.name7{
+			position: absolute;
+			top: 306px;
+			left: 123px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name7:hover{
+			opacity: 1;
+		}
+		.name8{
+			position: absolute;
+			top: 495px;
+			left: 123px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name8:hover{
+			opacity: 1;
+		}
+		.name9{
+			position: absolute;
+			top: 305px;
+			left: 1367px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name9:hover{
+			opacity: 1;
+		}
+		.name10{
+			position: absolute;
+			top: 495px;
+			left: 1367px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name10:hover{
+			opacity: 1;
+		}
+
+
+
+
+	</style>
+	
+</head>
+
+<body>
+  <div class="container-fluid">
+	  <div class="row rowPos">
+		  <img class="box1" src="images/video/videobg-01.jpg" width="1920" height="1080" alt=""/>
+		  <a href="allgroup.html"><img class="backall" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>
+		  
+<!--menu button-->		  
+		  <div class="col">      
+		    <div id="rope">
+				<a href="#"><img src="images/rope-02.png" width="44" height="145" alt=""/></a>
+			</div>   		  
+			 <div id="daolang">
+				 <a href="#"><img src="images/導覽-03.png" width="129" height="735" alt=""/></a>
+				 <ul class="text">
+					 <a href="start.html"><p style="margin-left: 23px">首頁</p></a>					 
+					 <a href="school.html"><p style="margin-top: 48px">校系介紹</p></a>
+					 <a href="teacher.html"><p style="margin-top: 48px">導師簡介</p></a>
+					 <a href="annualtheme.html"><p style="margin-top: 48px">年度主題</p></a>
+					 <a href="allgroup.html"><p style="margin-top: 48px">畢業作品</p></a>
+					 <a href="student.html"><p style="margin-top: 48px">畢業學生</p></a>
+					 <a href="timeline.html"><p style="margin-top: 48px;margin-left: 10px">大事記</p></a>
+				 </ul>				 				 
+		     </div>			 
+	    </div>
+		  
+		  <div class="col">
+<!--shoe-->
+		      <div id="shoe">         
+		          <a href="#"><img src="images/video/shoe-02.png" width="180" alt=""/></a>			 		  
+	          </div>
+<!--scars-->
+              <div id="scars">		    
+		          <a href="#"><img src="images/video/scars-02.png" width="180" alt=""/></a>			    		    
+	          </div>		 
+<!--poopie-->
+              <div id="sugar">		    
+		          <a href="#"><img src="images/video/sugar-02.png" width="180" alt=""/></a>			    		    
+	          </div>
+		  </div>
+<!--shoe box-->		  
+		  <div class="col">
+	  	    <div id="shoebox">
+		          <img src="images/video/studentbox-01.png" width="1600" height="896" alt=""/>
+				  <a href="#"><img class="back" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>				  
+				  <img class="line" src="images/3D/line1-02.png" alt=""/>
+                  <video class="shoevideo" width="400" controls>
+                     <source src="video/shoes.mp4" type="video/mp4">                     
+                  </video>
+				  <a class="poster1" href="images/video/shoedent.jpg">
+					  <img class="shoeposter" src="images/video/shoedent.jpg" height="315px" alt=""/>
+				  </a>
+				  <p class="shoestory">劇情介紹</p>
+			      <img class="linetext" src="images/3D/line2-03.png" alt=""/>
+		          <p class="story">曉晨是個很喜歡鞋子的人，時常坐在學校的角落裡觀察別人的鞋子<br>
+					               ，並把她覺得特別的鞋子畫下來。她有個很欣賞的手繪鞋畫師，有<br>
+                                   一天在路上看到他最新的作品，匆忙的追上去才發現那雙鞋已經消<br>
+					               失在視線範圍，她便默默的走了。突然有一天，她在咖啡廳發現素<br>
+                                   描班上最不認真，畫工最差的宏奕竟然在畫畫，她便趁他走開的時<br>
+                                   候去翻他的素描本，卻發現素描本上竟然畫著幾雙手繪鞋的草圖…
+				  </p>
+				  <p class="shoestory2">拍攝畫面</p>
+				  <img class="linetext2" src="images/3D/line2-03.png" alt=""/>
+				     <div class="shoeimage">
+				         <a class="image1" href="images/video/01.jpg"><img src="images/video/01.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/video/02.jpg"><img src="images/video/02.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/video/03.jpg"><img src="images/video/03.jpg" width="135" alt=""/></a>
+				     </div>
+				     <div class="shoeimage2">
+				         <a class="image1" href="images/video/04.jpg"><img src="images/video/04.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/video/05.jpg"><img src="images/video/05.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/video/06.jpg"><img src="images/video/06.jpg" width="135" alt=""/></a>
+				     </div>
+				<a href="#"><p class="name1">黃學文</p></a>
+				<a href="#"><p class="name2">覃詠芊</p></a>
+				<a href="#"><p class="name3">蔡明浩</p></a>
+				<a href="#"><p class="name4">陳奕權</p></a>
+				<a href="#"><p class="name5">溫雪瑩</p></a>
+				<a href="#"><p class="name6">黃智掦</p></a>
+		    </div>
+		  </div>
+<!--scars box-->		  
+		  <div class="col">
+	  	    <div id="scarsbox">
+		          <img src="images/video/scarbox-01.png" width="1600" height="896" alt=""/>
+				  <a href="#"><img class="back" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>				  
+				  <img class="line" src="images/3D/line1-02.png" alt=""/>
+                  <video class="scarsvideo" width="400" controls>
+                     <source src="video/完整預告片.mp4" type="video/mp4">                     
+                  </video>
+				  <a class="poster11" href="images/video/scarsposter.jpg">
+					  <img class="scarsposter" src="images/video/scarsposter.jpg" height="315px" alt=""/>
+				  </a>
+				  <p class="scarsstory">劇情介紹</p>
+			      <img class="linetext" src="images/3D/line2-03.png" alt=""/>
+		          <p class="story">微電影的動機是為了讓人們意識到霸凌對被霸凌者代勞很大的影響<br>
+					               ，不只是在霸凌的當下受害，在後續也會對於受害者心靈刺傷的陰<br>
+                                   影更是一輩子，然而，往往霸凌只是加害者一時興起的好玩。因此<br>
+					               ，想藉由本片提醒大家千萬不要好玩而亂對人家做出不好的舉動與<br>
+                                   言語。<br>                                   
+				  </p>
+				  <p class="scarsstory2">拍攝畫面</p>
+				  <img class="linetext2" src="images/3D/line2-03.png" alt=""/>
+				     <div class="scarsimage">
+				         <a class="image11" href="images/video/11.jpg"><img src="images/video/11.jpg" width="135" alt=""/></a>
+						 <a class="image11" href="images/video/22.jpg"><img src="images/video/22.jpg" width="135" alt=""/></a>
+						 <a class="image11" href="images/video/33.jpg"><img src="images/video/33.jpg" width="135" alt=""/></a>
+				     </div>
+				     <div class="scarsimage2">
+				         <a class="image11" href="images/video/44.jpg"><img src="images/video/44.jpg" width="135" alt=""/></a>
+						 <a class="image11" href="images/video/55.jpg"><img src="images/video/55.jpg" width="135" alt=""/></a>
+						 <a class="image111" href="images/video/66.jpg"><img src="images/video/66.jpg" width="135" alt=""/></a>
+				     </div>				
+				<a href="#"><p class="name2">韓瑋峰</p></a>				
+		    </div>
+		  </div>
+<!--sugar box-->		  
+		  <div class="col">
+	  	    <div id="sugarbox">
+		          <img src="images/video/sugarbox-01.png" width="1600" height="896" alt=""/>
+				  <a href="#"><img class="back" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>				  
+				  <img class="line" src="images/3D/line1-02.png" alt=""/>
+                  <video class="sugarvideo" width="400" controls>
+                     <source src="video/Comp 1_1.mp4" type="video/mp4">                     
+                  </video>
+				  <a class="poster11" href="images/video/sugarposter.jpg">
+					  <img class="sugarposter" src="images/video/sugarposter.jpg" height="315px" alt=""/>
+				  </a>
+				  <p class="sugarstory">劇情介紹</p>
+			      <img class="linetext" src="images/3D/line2-03.png" alt=""/>
+		          <p class="story">糖糖是個胖胖的女孩，個性開朗，充滿著正能量。她最好的朋友雅<br>
+					               靜是個人如其名的女孩子，優雅和安靜兼具，卻對外人會過度緊張<br>
+                                   類型的女孩子。糖糖卻和她完全相反。雅靜長得很標致，班上一位<br>
+					               叫浩難的不良少年，有一天浩難把雅靜帶走把糖糖推在了地上這時<br>
+                                   伊凡的出現，替她們結了圍。然後經過和伊凡的突發事件，讓糖糖<br>
+                                   喜歡上班上帥帥的伊凡了，但她沒有太大的信心面對，在雅靜的幫<br>
+                                   助下糖糖終於和伊凡在一起了。
+				  </p>
+				  <p class="sugarstory2">拍攝畫面</p>
+				  <img class="linetext2" src="images/3D/line2-03.png" alt=""/>
+				     <div class="sugarimage">
+				         <a class="image11" href="images/video/1.png"><img src="images/video/1.png" width="135" alt=""/></a>
+						 <a class="image11" href="images/video/2.png"><img src="images/video/2.png" width="135" alt=""/></a>
+						 <a class="image11" href="images/video/3.png"><img src="images/video/3.png" width="135" alt=""/></a>
+				     </div>
+				     <div class="sugarimage2">
+				         <a class="image11" href="images/video/4.png"><img src="images/video/4.png" width="135" alt=""/></a>
+						 <a class="image11" href="images/video/5.png"><img src="images/video/5.png" width="135" alt=""/></a>
+						 <a class="image11" href="images/video/6.png"><img src="images/video/6.png" width="135" alt=""/></a>
+				     </div>				
+				<a href="#"><p class="name7">黃敏瑤</p></a>
+				<a href="#"><p class="name8">鄭潤醛</p></a>
+				<a href="#"><p class="name9">藺汝秋</p></a>
+				<a href="#"><p class="name10">陳韋理</p></a>
+		    </div>
+		  </div>
+		  
+	  </div>	  
+  </div>
+ 
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+
+	
+<script>
+//shoe//	
+	$(function(){		
+		$("#shoe").click(function(){
+			$("#shoebox").addClass("bounce").animate({"marginTop":"0px"},800);
+			$(".backall").hide();			
+		})
+		$(".back").click(function(){
+			$("#shoebox").removeClass("bounce").animate({"marginTop":"-900px"},800);
+			$(".backall").show();
+		})
+	})	
+//scars//	
+	$(function(){		
+		$("#scars").click(function(){
+			$("#scarsbox").addClass("bounce").animate({"marginTop":"0px"},800);
+			$(".backall").hide();
+		})
+		$(".back").click(function(){
+			$("#scarsbox").removeClass("bounce").animate({"marginTop":"-900px"},800);
+			$(".backall").show();
+		})
+	})
+//sugar//	
+	$(function(){		
+		$("#sugar").click(function(){
+			$("#sugarbox").addClass("bounce").animate({"marginTop":"0px"},800);
+			$(".backall").hide();
+		})
+		$(".back").click(function(){
+			$("#sugarbox").removeClass("bounce").animate({"marginTop":"-900px"},800);
+			$(".backall").show();
+		})
+	})
+//menu//	
+	$(function(){		
+		$("#rope").click(function(){
+			$("#daolang").addClass("bounce").animate({"marginTop":"-10px"},800)			
+			$("#rope").hide();
+		})
+		$("#daolang").click(function(){
+			$("#daolang").removeClass("bounce").animate({"marginTop":"-800px"},800)
+			$("#rope").show();
+		})
+	})
+
+//imagebox//	
+	$(function(){
+	     $(".image1").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "imagebg",
+	     })
+    });
+	$(function(){
+	     $(".image11").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "imagebg1",
+	     })
+    });
+
+//posterbox//	
+	$(function(){
+	     $(".poster1").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "posterbg",
+	     })
+    });
+	$(function(){
+	     $(".poster11").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "posterbg1",
+	     })
+    });
+
+	
+</script>
+	
+</body>
+</html>

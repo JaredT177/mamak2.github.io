@@ -1,0 +1,543 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mamak</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<style>
+/*----menu----*/		
+		#rope{
+			position: absolute;
+			z-index: -1;
+			margin-left: 100px;
+			animation: float 2s ease-in-out infinite;
+}
+
+	
+			@keyframes float{
+	           0% {		
+		           transform: translatey(-10px);
+	              }	
+				
+	           50% {		
+		           transform: translatey(0px);
+	               }
+				
+	           100% {		
+		           transform: translatey(-10px);
+	                }
+}
+		#daolang{
+			position: absolute;	
+			z-index: -1;
+			left: 70px;
+			margin-top: -800px;			
+}
+	    #table{
+			position: absolute;
+			z-index: -1;
+		    left: 720px;
+			top: 461px;
+}
+/*----jump----*/	
+		.bounce{
+			animation: bounces 1.5s;
+}		
+        @keyframes bounces {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            35% {transform: translateY(-11px);}
+            60% {transform: translateY(-11px);}
+} 
+		
+		 .box1 {
+		    position: absolute;			
+            z-index: -1;
+		    margin-left: 0px;		 
+}
+
+/*left right button*/
+		.left{
+			position: absolute;
+			z-index: -1;
+			top: 420px;
+			left: 1030px;
+}
+		.left:hover{
+			opacity: 0.7;
+}
+		.right{
+			position: absolute;
+			z-index: -1;
+			top: 420px;
+			left: 1745px;
+}
+		.right:hover{
+			opacity: 0.7;
+}
+		.mySlides {
+			display:none;
+}
+		
+
+/*niandu*/
+		#niandu{
+			position: absolute;
+			z-index: -1;
+			top: 180px;
+			left: 1350px;
+			animation: floatn 2s ease-in-out infinite;
+}
+	    @keyframes floatn{
+	        0% {
+		
+		        transform: translatey(-20px);
+	        }
+	        50% {
+		
+		        transform: translatey(0px);
+	        }
+	        100% {
+		
+	        	transform: translatey(-20px);
+	        }
+        }
+
+		#niandu:hover{
+            opacity: 0.9;
+}
+		#niandubox{
+			position: absolute;
+			z-index: -1;
+			left: 100px;
+			margin-top: -900px;
+}
+/*poster*/
+	    .poster1{
+			position: absolute;
+			z-index: -1;
+     		top: 300px;
+			left: 1320px;
+}
+	    .poster2{
+			position: absolute;
+			z-index: -1;
+     		top: 300px;
+			left: 1320px;
+}
+	    .poster3{
+			position: absolute;
+			z-index: -1;
+     		top: 300px;
+			left: 1320px;
+}
+	    .posterleft{
+		    position: absolute;
+			z-index: -1;
+			opacity: 0.7;
+			left: -180px;
+			top: 40px;
+}
+		.posterright{
+		    position: absolute;
+			z-index: -1;
+			opacity: 0.7;
+			left: 270px;
+			top: 40px;
+}
+/*-----------*/		
+		.rowPos{
+			position: absolute;			
+}
+	    
+	    .text{
+			position: absolute;
+			top: 62px;
+			left: -23px;
+			font-size: 24px;			
+			
+}
+	    .text a{
+		    text-decoration: none;
+			color: #704002;
+	    	font-family:"DFPYuanMXBold-B5"
+}		
+	
+	
+/*niandubox*/
+		.line{
+			position: absolute;
+			top: 195px;
+			left: 975px;
+			height: 318px;
+}
+/*back button*/
+		.back{
+			position: absolute;
+			top: 150px;
+			left: 1350px;			
+}
+		.back:hover{
+            opacity: 0.7;
+}
+/*niandu video,poster*/
+	    .nianduvideo{
+		    position: absolute;
+		    top: 195px;
+		    left: 355px;
+		    width: 560px; 
+}
+	    .nianduposter{
+			position: absolute;
+			top: 195px;
+			left: 1040px;			
+}
+/*niandustory*/
+		.niandustory{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 500px;
+}
+		.story{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 15px;
+			top: 600px;
+			left: 355px;
+}
+		.linetext{
+			position: absolute;
+			top: 580px;
+			left: 400px;			
+}
+/*nianduCharacter*/
+		.niandustory2{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 985px;
+}
+		.linetext2{
+			position: absolute;
+			top: 580px;
+			left: 885px;			
+}
+/*nianduimage*/
+		.nianduimage{
+			position: absolute;
+			top: 600px;
+			left: 850px;
+}
+/*----imagebox----*/
+		.imagebg{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.imagebg img{
+			width: 1500px;
+			margin-top: 180px;
+			margin-left: 200px;
+}
+	
+/*----posterbox----*/
+		.posterbg{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.posterbg img{
+			height: 800px;
+			margin-top: 100px;
+			margin-left: 660px;
+}
+/*name*/
+		.name1{
+			position: absolute;
+			top: 273px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name1:hover{
+			opacity: 1;
+		}
+		.name2{
+			position: absolute;
+			top: 412px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name2:hover{
+			opacity: 1;
+		}
+		.name3{
+			position: absolute;
+			top: 552px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name3:hover{
+			opacity: 1;
+		}
+		.name4{
+			position: absolute;
+			top: 273px;
+			left: 1369px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name4:hover{
+			opacity: 1;
+		}
+		.name5{
+			position: absolute;
+			top: 412px;
+			left: 1369px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name5:hover{
+			opacity: 1;
+		}
+		.name6{
+			position: absolute;
+			top: 552px;
+			left: 1369px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name6:hover{
+			opacity: 1;
+		}
+	
+	</style>
+	
+</head>
+
+<body>
+	
+  <div class="container-fluid">
+	  <div class="row rowPos">	     
+			 <img class="box1" src="images/annualtheme/background-01.png" width="1920" height="1080" alt=""/>   
+		     
+<!--menu button-->		  
+		  <div class="col">      
+		    <div id="rope">
+				<a href="#"><img src="images/rope-02.png" width="44" height="145" alt=""/></a>
+			</div>   		  
+			 <div id="daolang">
+				 <a href="#"><img src="images/導覽-03.png" width="129" height="735" alt=""/></a>
+				 <ul class="text">
+					 <a href="start.html"><p style="margin-left: 23px">首頁</p></a>					 
+					 <a href="school.html"><p style="margin-top: 48px">校系介紹</p></a>
+					 <a href="teacher.html"><p style="margin-top: 48px">導師簡介</p></a>
+					 <a href="annualtheme.html"><p style="margin-top: 48px">年度主題</p></a>
+					 <a href="allgroup.html"><p style="margin-top: 48px">畢業作品</p></a>
+					 <a href="student.html"><p style="margin-top: 48px">畢業學生</p></a>
+					 <a href="timeline.html"><p style="margin-top: 48px;margin-left: 10px">大事記</p></a>
+				 </ul>				 				 
+		     </div>			 
+	    </div>
+<!--poster 01-->		  
+		  <div class="col poster1 mySlides">
+				 <a class="poster11" href="images/annualtheme/poster1-04.jpg">
+					 <img src="images/annualtheme/poster1-04.jpg" width="236" height="334" alt=""/>
+			     </a>
+			     <img class="posterleft" src="images/annualtheme/poster3.jpg" height="250" alt=""/>
+			     <img class="posterright" src="images/annualtheme/poster2.jpg" height="250" alt=""/>
+		  </div>
+<!--poster 02-->		  
+		  <div class="col poster2 mySlides">
+				 <a class="poster11" href="images/annualtheme/poster2.jpg">
+					 <img src="images/annualtheme/poster2.jpg" width="236" height="334" alt=""/>
+			     </a>
+			     <img class="posterleft" src="images/annualtheme/poster1-04.jpg" height="250" alt=""/>
+			     <img class="posterright" src="images/annualtheme/poster3.jpg" height="250" alt=""/>
+		  </div>
+<!--poster 03-->		  
+		  <div class="col poster3 mySlides">
+				 <a class="poster11" href="images/annualtheme/poster3.jpg">
+					 <img src="images/annualtheme/poster3.jpg" width="236" height="334" alt=""/>
+			     </a>
+			     <img class="posterleft" src="images/annualtheme/poster2.jpg" height="250" alt=""/>
+			     <img class="posterright" src="images/annualtheme/poster1-04.jpg" height="250" alt=""/>
+		  </div>
+		  
+<!--button left right-->	  
+		  <div class="col left" onclick="plusDivs(-1)">				  
+				 <a href="#"><img src="images/tongxue/buttom1-02.png" width="100" height="90" alt=""/></a>
+	      </div>
+			  
+          <div class="col right" onclick="plusDivs(1)">
+				 <a href="#"><img src="images/tongxue/buttom-02.png" width="100" height="90" alt=""/></a>				  
+		  </div>
+		  
+<!--poster button-->	   
+		  <div class="col" id="niandu">
+				 <a href="#">
+					 <img src="images/annualtheme/annualtheme buttom-02.png" width="180" height="121" alt=""/>
+				 </a>
+		  </div>
+		  
+		  <div id="table" class="box1"><img src="images/annualtheme/table-03.png" width="1200" height="619" alt=""/></div>
+		  
+		  <div class="col">
+	  	    <div id="niandubox">
+		          <img src="images/annualtheme/box-01.png" width="1600" height="896" alt=""/>
+				  <a href="#"><img class="back" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>				  
+				  <img class="line" src="images/3D/line1-02.png" alt=""/>
+                  <video class="nianduvideo" width="400" controls>
+                     <source src="video/動畫fina fina final le mei.mp4" type="video/mp4">                     
+                  </video>
+				  <a class="poster11" href="images/annualtheme/poster1-04.jpg">
+					  <img class="nianduposter" src="images/annualtheme/poster1-04.jpg" height="315px" alt=""/>
+				  </a>
+				  <p class="niandustory">嘛嘛檔理念</p>
+			      <img class="linetext" src="images/3D/line2-03.png" alt=""/>
+		          <p class="story">嘛嘛檔為馬來西亞特有傳統街邊美食， 是收集了各類好吃食物的小<br>
+					               店，其特點為價格實惠、全年無休、 全天候營業，只要肚子餓了就<br>
+                                   會想起這個地方。這個馬來西亞的街邊小店完呈現出海青數媒36期<br>
+                                   的性格，結合地方文化、 生活和社會環境等多向思維整合的創作，<br>
+                                   讓您感受滿滿的溫暖， 並能盡情享受南洋島國的奔放熱情！嘛嘛檔<br>
+                                   的精神就像36期海青班數媒科同學們， 總是呈現熱熱鬧鬧的感覺，<br>
+                                   不分晝夜的互相討論與幫助， 期望透過本次主題讓更多人能深度認<br>
+                                   識多元文化所產生出特別的火花，以傳達出36期海青班數媒科同學<br>
+                                   們活潑歡樂的個性與積極進取的學習精神。
+				  </p>
+				  <p class="niandustory2">嘛嘛檔角色</p>
+				  <img class="linetext2" src="images/3D/line2-03.png" alt=""/>
+				     <div class="nianduimage">
+				         <a class="image1" href="images/annualtheme/all.jpg">
+							 <img src="images/annualtheme/all.jpg" width="410" alt=""/>
+						 </a>
+				     </div>
+				<a href="#"><p class="name1">周芫伈</p></a>
+				<a href="#"><p class="name2">邱怡虹</p></a>
+				<a href="#"><p class="name3">吳秋儀</p></a>
+				<a href="#"><p class="name4">徐曉彤</p></a>
+				<a href="#"><p class="name5">鄭佳成</p></a>
+				<a href="#"><p class="name6">卓揚</p></a>
+		    </div>
+		  </div>		
+	 </div> 	  
+ </div>
+	
+ 
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	
+<script>
+//left right//	
+	var slideIndex = 1;
+       showDivs(slideIndex);
+
+    function plusDivs(n) {
+       showDivs(slideIndex += n);
+}
+
+    function showDivs(n) {
+       var i;
+       var x = document.getElementsByClassName("mySlides");
+       if (n > x.length) {slideIndex = 1}    
+       if (n < 1) {slideIndex = x.length}
+       for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+       }
+       x[slideIndex-1].style.display = "block";  
+}
+//niandubox//	
+	$(function(){		
+		$("#niandu").click(function(){
+			$("#niandubox").addClass("bounce").animate({"marginTop":"0px"},800);
+			$(".backall").hide();
+		})
+		$(".back").click(function(){
+			$("#niandubox").removeClass("bounce").animate({"marginTop":"-900px"},800);
+			$(".backall").show();
+		})
+	})
+//menu//	
+	$(function(){		
+		$("#rope").click(function(){
+			$("#daolang").addClass("bounce").animate({"marginTop":"-10px"},800)			
+			$("#rope").hide();
+		})
+		$("#daolang").click(function(){
+			$("#daolang").removeClass("bounce").animate({"marginTop":"-800px"},800)
+			$("#rope").show();
+		})
+	})
+//imagebox//	
+	$(function(){
+	     $(".image1").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "imagebg",
+	     })
+    });
+	
+//posterbox//	
+	$(function(){
+	     $(".poster11").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "posterbg",
+	     })
+    });
+
+</script>
+	
+</body>
+</html>

@@ -1,0 +1,710 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mamak</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<style>
+/*----menu----*/	
+		#rope{
+			position: absolute;
+			margin-left: 100px;
+			animation: float 2s ease-in-out infinite;
+}
+		
+			@keyframes float{
+	           0% {		
+		           transform: translatey(-10px);
+	              }	
+				
+	           50% {		
+		           transform: translatey(0px);
+	               }
+				
+	           100% {		
+		           transform: translatey(-10px);
+	                }
+}
+		
+		#daolang{
+			position: absolute;			
+			margin-left: 58px;
+			margin-top: -800px;
+}
+/*----jump----*/
+		.bounce{
+			animation: bounces 1.5s;
+}		
+        @keyframes bounces {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            35% {transform: translateY(-11px);}
+            60% {transform: translateY(-11px);}
+} 
+
+
+		 .box1 {
+		 position: absolute;
+         z-index: -1;
+		 margin-left: 0px;
+		 margin-top: 0px;         
+}
+
+		.rowPos{
+			position: absolute;		
+			
+}
+	    .text{
+			position: absolute;
+			top: 62px;
+			left: -23px;
+			font-size: 24px;			
+			
+}
+	    .text a{
+		    text-decoration: none;
+			color: #704002;
+			font-family:"DFPYuanMXBold-B5"
+}
+
+/*left right button*/
+		.left{
+			top: 515px;
+			left: 200px;
+}
+		.left:hover{
+			opacity: 0.7;
+}
+		.right{
+			top: 515px;
+			left: 1390px;
+}
+		.right:hover{
+			opacity: 0.7;
+}
+		
+		.mySlides {
+			display:none;
+}		
+/*studentbox*/
+		.studentbox{
+			position: absolute;
+			z-index: -1;
+			top: 320px;
+			left: 270px;
+}
+/*student*/
+		.student1{
+			position: absolute;
+			top: 0px;
+			left: 120px;
+}
+		.student2{
+			position: absolute;
+			top: 0px;
+			left: 320px;
+}
+		.student3{
+			position: absolute;
+			top: 0px;
+			left: 520px;
+}
+		.student4{
+			position: absolute;
+			top: 0px;
+			left: 720px;
+}		
+		.student5{
+			position: absolute;
+			top: 0px;
+			left: 920px;
+}
+		.student6{
+			position: absolute;
+			top: 0px;
+			left: 1120px;
+}
+		.student7{
+			position: absolute;
+			top: 250px;
+			left: 120px;
+}
+		.student8{
+			position: absolute;
+			top: 250px;
+			left: 320px;
+}
+		.student9{
+			position: absolute;
+			top: 250px;
+			left: 520px;
+}
+		.student10{
+			position: absolute;
+			top: 250px;
+			left: 720px;
+}		
+		.student11{
+			position: absolute;
+			top: 250px;
+			left: 920px;
+}
+		.student12{
+			position: absolute;
+			top: 250px;
+			left: 1120px;
+}
+
+	</style>
+</head>
+
+<body>
+<div class="container-fluid">
+	 <div class="row rowPos">		  
+          <img class="box1" src="images/tongxue/bg2-01.png" width="1920" height="1080" alt=""/>
+<!--menu button-->		  
+		  <div class="col">      
+		    <div id="rope">
+				<a href="#"><img src="images/rope-02.png" width="44" height="145" alt=""/></a>
+			</div>   		  
+			 <div id="daolang">
+				 <a href="#"><img src="images/導覽-03.png" width="129" height="735" alt=""/></a>
+				 <ul class="text">
+					 <a href="start.html"><p style="margin-left: 23px">首頁</p></a>					 
+					 <a href="school.html"><p style="margin-top: 48px">校系介紹</p></a>
+					 <a href="teacher.html"><p style="margin-top: 48px">導師簡介</p></a>
+					 <a href="annualtheme.html"><p style="margin-top: 48px">年度主題</p></a>
+					 <a href="allgroup.html"><p style="margin-top: 48px">畢業作品</p></a>
+					 <a href="student.html"><p style="margin-top: 48px">畢業學生</p></a>
+					 <a href="timeline.html"><p style="margin-top: 48px;margin-left: 10px">大事記</p></a>
+				 </ul>				 				 
+		     </div>			 
+	    </div>
+<!--student /1-12/-->
+		  <div class="col mySlides studentbox">
+	<!--student 01-->		  				  
+		      <div class="student1">
+				    <a href="05095086.html">
+					     <img src="images/tongxue/laowan2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/laowan-01.png'"
+						   onMouseOut="this.src='images/tongxue/laowan2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 02-->		  				  
+		      <div class="student2">
+				    <a href="05095095.html">
+					     <img src="images/tongxue/pang2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/pang-01.png'"
+						   onMouseOut="this.src='images/tongxue/pang2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 03-->		  				  
+		      <div class="student3">
+				    <a href="05095105.html">
+					     <img src="images/tongxue/xiaotong2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/xiaotong-01.png'"
+						   onMouseOut="this.src='images/tongxue/xiaotong2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 04-->		  				  
+		      <div class="student4">
+				    <a href="05095114.html">
+					     <img src="images/tongxue/kahseng2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/kahseng-01.png'"
+						   onMouseOut="this.src='images/tongxue/kahseng2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 05-->		  				  
+		      <div class="student5">
+				    <a href="05095123.html">
+					     <img src="images/tongxue/dog2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/dog-01.png'"
+						   onMouseOut="this.src='images/tongxue/dog2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 06-->		  				  
+		      <div class="student6">
+				    <a href="05095150.html">
+					     <img src="images/tongxue/yuxin2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/yuxin-01.png'"
+						   onMouseOut="this.src='images/tongxue/yuxin2-01.png'"/>
+				    </a>
+			  </div>
+	<!--student 07-->		  				  
+		      <div class="student7">
+				    <a href="05095175.html">
+					     <img src="images/tongxue/kaixin2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/kaixin-01.png'"
+						   onMouseOut="this.src='images/tongxue/kaixin2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 08-->		  				  
+		      <div class="student8">
+				    <a href="05095184.html">
+					     <img src="images/tongxue/konglong2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/konglong-01.png'"
+						   onMouseOut="this.src='images/tongxue/konglong2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 09-->		  				  
+		      <div class="student9">
+				    <a href="05095193.html">
+					     <img src="images/tongxue/zihan2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/zihan-01.png'"
+						   onMouseOut="this.src='images/tongxue/zihan2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 10-->		  				  
+		      <div class="student10">
+				    <a href="05095203.html">
+					     <img src="images/tongxue/qinyuan2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/qinyuan-01.png'"
+						   onMouseOut="this.src='images/tongxue/qinyuan2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 11-->		  				  
+		      <div class="student11">
+				    <a href="05095212.html">
+					     <img src="images/tongxue/allen2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/allen-01.png'"
+						   onMouseOut="this.src='images/tongxue/allen2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 12-->		  				  
+		      <div class="student12">
+				    <a href="05095221.html">
+					     <img src="images/tongxue/lunquan2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/lunquan-01.png'"
+						   onMouseOut="this.src='images/tongxue/lunquan2-01.png'"/>
+				    </a>
+			  </div>
+		  </div>
+<!--student /13-24/-->	  
+		  <div class="col mySlides studentbox">
+	<!--student 13-->		  				  
+		      <div class="student1">
+				    <a href="05095230.html">
+					     <img src="images/tongxue/jiaxin2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/jiaxin-01.png'"
+						   onMouseOut="this.src='images/tongxue/jiaxin2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 14-->		  				  
+		      <div class="student2">
+				    <a href="05095246.html">
+					     <img src="images/tongxue/jiansheng2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/jiansheng-01.png'"
+						   onMouseOut="this.src='images/tongxue/jiansheng2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 15-->		  				  
+		      <div class="student3">
+				    <a href="05095264.html">
+					     <img src="images/tongxue/xueying2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/xueying-01.png'"
+						   onMouseOut="this.src='images/tongxue/xueying2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 16-->		  				  
+		      <div class="student4">
+				    <a href="05095291.html">
+					     <img src="images/tongxue/kaijie2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/kaijie-01.png'"
+						   onMouseOut="this.src='images/tongxue/kaijie2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 17-->		  				  
+		      <div class="student5">
+				    <a href="05095301.html">
+					     <img src="images/tongxue/yiquan2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/yiquan-01.png'"
+						   onMouseOut="this.src='images/tongxue/yiquan2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 18-->		  				  
+		      <div class="student6">
+				    <a href="05095310.html">
+					     <img src="images/tongxue/xuewen2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/xuewen-01.png'"
+						   onMouseOut="this.src='images/tongxue/xuewen2-01.png'"/>
+				    </a>
+			  </div>
+	<!--student 19-->		  				  
+		      <div class="student7">
+				    <a href="05095335.html">
+					     <img src="images/tongxue/minghao2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/minghao-01.png'"
+						   onMouseOut="this.src='images/tongxue/minghao2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 20-->		  				  
+		      <div class="student8">
+				    <a href="05095353.html">
+					     <img src="images/tongxue/ling2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/ling-01.png'"
+						   onMouseOut="this.src='images/tongxue/ling2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 21-->		  				  
+		      <div class="student9">
+				    <a href="05095362.html">
+					     <img src="images/tongxue/ronghui2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/ronghui-01.png'"
+						   onMouseOut="this.src='images/tongxue/ronghui2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 22-->		  				  
+		      <div class="student10">
+				    <a href="05095380.html">
+					     <img src="images/tongxue/weifeng2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/weifeng-01.png'"
+						   onMouseOut="this.src='images/tongxue/weifeng2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 23-->		  				  
+		      <div class="student11">
+				    <a href="05095396.html">
+					     <img src="images/tongxue/tiff2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/tiff-01.png'"
+						   onMouseOut="this.src='images/tongxue/tiff2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 24-->		  				  
+		      <div class="student12">
+				    <a href="05095406.html">
+					     <img src="images/tongxue/shuqi2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/shuqi-01.png'"
+						   onMouseOut="this.src='images/tongxue/shuqi2-01.png'"/>
+				    </a>
+			  </div>
+		  </div>
+<!--student /25-36/-->	  
+		  <div class="col mySlides studentbox">
+	<!--student 25-->		  				  
+		      <div class="student1">
+				    <a href="05095415.html">
+					     <img src="images/tongxue/jianwei2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/jianwei-01.png'"
+						   onMouseOut="this.src='images/tongxue/jianwei2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 26-->		  				  
+		      <div class="student2">
+				    <a href="05095424.html">
+					     <img src="images/tongxue/madeline2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/madeline-01.png'"
+						   onMouseOut="this.src='images/tongxue/madeline2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 27-->		  				  
+		      <div class="student3">
+				    <a href="05095433.html">
+					     <img src="images/tongxue/weili2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/weili-01.png'"
+						   onMouseOut="this.src='images/tongxue/weili2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 28-->		  				  
+		      <div class="student4">
+				    <a href="05095460.html">
+					     <img src="images/tongxue/zhiyang2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/zhiyang-01.png'"
+						   onMouseOut="this.src='images/tongxue/zhiyang2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 29-->		  				  
+		      <div class="student5">
+				    <a href="05095476.html">
+					     <img src="images/tongxue/shengcai2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/shengcai-01.png'"
+						   onMouseOut="this.src='images/tongxue/shengcai2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 30-->		  				  
+		      <div class="student6">
+				    <a href="05095485.html">
+					     <img src="images/tongxue/weijie2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/weijie-01.png'"
+						   onMouseOut="this.src='images/tongxue/weijie2-01.png'"/>
+				    </a>
+			  </div>
+	<!--student 31-->		  				  
+		      <div class="student7">
+				    <a href="05095504.html">
+					     <img src="images/tongxue/emily2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/emily-01.png'"
+						   onMouseOut="this.src='images/tongxue/emily2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 32-->		  				  
+		      <div class="student8">
+				    <a href="05095522.html">
+					     <img src="images/tongxue/duanli2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/duanli-01.png'"
+						   onMouseOut="this.src='images/tongxue/duanli2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 33-->		  				  
+		      <div class="student9">
+				    <a href="05095531.html">
+					     <img src="images/tongxue/shengjie2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/shengjie-01.png'"
+						   onMouseOut="this.src='images/tongxue/shengjie2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 34-->		  				  
+		      <div class="student10">
+				    <a href="05095540.html">
+					     <img src="images/tongxue/kangxian2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/kangxian-01.png'"
+						   onMouseOut="this.src='images/tongxue/kangxian2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 35-->		  				  
+		      <div class="student11">
+				    <a href="05095556.html">
+					     <img src="images/tongxue/sunde2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/sunde-01.png'"
+						   onMouseOut="this.src='images/tongxue/sunde2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 36-->		  				  
+		      <div class="student12">
+				    <a href="05095565.html">
+					     <img src="images/tongxue/ziqi2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/ziqi-01.png'"
+						   onMouseOut="this.src='images/tongxue/ziqi2-01.png'"/>
+				    </a>
+			  </div>
+		  </div>
+<!--student /37-48/-->	  
+		  <div class="col mySlides studentbox">
+	<!--student 37-->		  				  
+		      <div class="student1">
+				    <a href="05095574.html">
+					     <img src="images/tongxue/huiqian2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/huiqian-01.png'"
+						   onMouseOut="this.src='images/tongxue/huiqian2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 38-->		  				  
+		      <div class="student2">
+				    <a href="05095620.html">
+					     <img src="images/tongxue/yongqian2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/yongqian-01.png'"
+						   onMouseOut="this.src='images/tongxue/yongqian2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 39-->		  				  
+		      <div class="student3">
+				    <a href="05095645.html">
+					     <img src="images/tongxue/junting2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/junting-01.png'"
+						   onMouseOut="this.src='images/tongxue/junting2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 40-->		  				  
+		      <div class="student4">
+				    <a href="05095654.html">
+					     <img src="images/tongxue/liangquan2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/liangquan-01.png'"
+						   onMouseOut="this.src='images/tongxue/liangquan2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 41-->		  				  
+		      <div class="student5">
+				    <a href="05095663.html">
+					     <img src="images/tongxue/qiuyi2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/qiuyi-01.png'"
+						   onMouseOut="this.src='images/tongxue/qiuyi2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 42-->		  				  
+		      <div class="student6">
+				    <a href="05095681.html">
+					     <img src="images/tongxue/baoqiu2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/baoqiu-01.png'"
+						   onMouseOut="this.src='images/tongxue/baoqiu2-01.png'"/>
+				    </a>
+			  </div>
+	<!--student 43-->		  				  
+		      <div class="student7">
+				    <a href="05095700.html">
+					     <img src="images/tongxue/caixia2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/caixia-01.png'"
+						   onMouseOut="this.src='images/tongxue/caixia2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 44-->		  				  
+		      <div class="student8">
+				    <a href="05095716.html">
+					     <img src="images/tongxue/yiwen2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/yiwen-01.png'"
+						   onMouseOut="this.src='images/tongxue/yiwen2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 45-->		  				  
+		      <div class="student9">
+				    <a href="05095725.html">
+					     <img src="images/tongxue/yiwei2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/yiwei-01.png'"
+						   onMouseOut="this.src='images/tongxue/yiwei2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 46-->		  				  
+		      <div class="student10">
+				    <a href="05095734.html">
+					     <img src="images/tongxue/jiawei2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/jiawei-01.png'"
+						   onMouseOut="this.src='images/tongxue/jiawei2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 47-->		  				  
+		      <div class="student11">
+				    <a href="05095743.html">
+					     <img src="images/tongxue/caijun2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/caijun-01.png'"
+						   onMouseOut="this.src='images/tongxue/caijun2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 48-->		  				  
+		      <div class="student12">
+				    <a href="05095761.html">
+					     <img src="images/tongxue/yizhang2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/yizhang-01.png'"
+						   onMouseOut="this.src='images/tongxue/yizhang2-01.png'"/>
+				    </a>
+			  </div>
+		  </div>
+<!--student /49-57/-->	  
+		  <div class="col mySlides studentbox">
+	<!--student 49-->		  				  
+		      <div class="student1">
+				    <a href="05095770.html">
+					     <img src="images/tongxue/honghan2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/honghan-01.png'"
+						   onMouseOut="this.src='images/tongxue/honghan2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 50-->		  				  
+		      <div class="student2">
+				    <a href="05095786.html">
+					     <img src="images/tongxue/jiaming2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/jiaming-01.png'"
+						   onMouseOut="this.src='images/tongxue/jiaming2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 51-->		  				  
+		      <div class="student3">
+				    <a href="05095814.html">
+					     <img src="images/tongxue/weikun2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/weikun-01.png'"
+						   onMouseOut="this.src='images/tongxue/weikun2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 52-->		  				  
+		      <div class="student4">
+				    <a href="05095823.html">
+					     <img src="images/tongxue/jiajun2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/jiajun-01.png'"
+						   onMouseOut="this.src='images/tongxue/jiajun2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 53-->		  				  
+		      <div class="student5">
+				    <a href="05095832.html">
+					     <img src="images/tongxue/shujun2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/shujun-01.png'"
+						   onMouseOut="this.src='images/tongxue/shujun2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 54-->		  				  
+		      <div class="student6">
+				    <a href="05095875.html">
+					     <img src="images/tongxue/jinyi2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/jinyi-01.png'"
+						   onMouseOut="this.src='images/tongxue/jinyi2-01.png'"/>
+				    </a>
+			  </div>
+	<!--student 55-->		  				  
+		      <div class="student7">
+				    <a href="05095893.html">
+					     <img src="images/tongxue/zihui2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/zihui-01.png'"
+						   onMouseOut="this.src='images/tongxue/zihui2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 56-->		  				  
+		      <div class="student8">
+				    <a href="05095912.html">
+					     <img src="images/tongxue/tock2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/tock-01.png'"
+						   onMouseOut="this.src='images/tongxue/tock2-01.png'"/>
+				    </a>
+			  </div>		  
+	<!--student 57-->		  				  
+		      <div class="student9">
+				    <a href="05095930.html">
+					     <img src="images/tongxue/yolanda2-01.png" width="130" alt=""
+						   onMouseOver="this.src='images/tongxue/yolanda-01.png'"
+						   onMouseOut="this.src='images/tongxue/yolanda2-01.png'"/>
+				    </a>
+			  </div>
+		 </div>		  
+
+<!--button left right-->	  
+              <div class="col left" onclick="plusDivs(-1)">				  
+				  <a href="#"><img src="images/tongxue/buttom1-02.png" width="100" height="90" alt=""/></a>
+			  </div>
+			  
+              <div class="col right" onclick="plusDivs(1)">
+				  <a href="#"><img src="images/tongxue/buttom-02.png" width="100" height="90" alt=""/></a>				  
+			  </div>
+		 
+	
+	</div>		  
+</div>	  
+	
+ 
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+<script>
+//left right//
+	var slideIndex = 1;
+       showDivs(slideIndex);
+
+    function plusDivs(n) {
+       showDivs(slideIndex += n);
+}
+
+    function showDivs(n) {
+       var i;
+       var x = document.getElementsByClassName("mySlides");
+       if (n > x.length) {slideIndex = 1}    
+       if (n < 1) {slideIndex = x.length}
+       for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+       }
+       x[slideIndex-1].style.display = "block";  
+}
+
+	
+//menu//	
+	$(function(){		
+		$("#rope").click(function(){
+			$("#daolang").addClass("bounce").animate({"marginTop":"-10px"},800)
+			$("#rope").hide();
+		})
+		$("#daolang").click(function(){
+			$("#daolang").removeClass("bounce").animate({"marginTop":"-800px"},800)
+			$("#rope").show();
+		})
+	})
+
+
+</script>	
+	
+</body>
+</html>

@@ -1,0 +1,710 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mamak</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+	<style>
+		
+
+		@keyframes floatin{
+	         0% {		
+		         transform: translatey(0px);
+	         }
+	         50% {		
+		         transform: translatey(-20px);
+	         }
+	         100% {		
+		         transform: translatey(0px);
+	         }
+}
+		@keyframes floatn{
+	         0% {		
+		         transform: translatey(-20px);
+	         }
+	         50% {		
+		         transform: translatey(0px);
+	         }
+	         100% {		
+		         transform: translatey(-20px);
+	         }
+}
+		@keyframes floa{
+	         0% {		
+		         transform: translatey(0px);
+	         }
+	         50% {		
+		         transform: translatey(-10px);
+	         }
+	         100% {		
+		         transform: translatey(0px);
+	         }
+}
+/*----jump----*/	
+		.bounce{
+			animation: bounces 1.5s;
+}		
+        @keyframes bounces {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            35% {transform: translateY(-11px);}
+            60% {transform: translateY(-11px);}
+} 
+
+/*----menu----*/		
+		#rope{
+			position: absolute;
+			z-index: -1;
+			left: 100px;
+			animation: float 2s ease-in-out infinite;
+}
+			@keyframes float{
+	           0% {		
+		           transform: translatey(-10px);
+	              }	
+				
+	           50% {		
+		           transform: translatey(0px);
+	               }
+				
+	           100% {		
+		           transform: translatey(-10px);
+	                }
+}
+		
+		#daolang{
+			position: absolute;	
+			z-index: -1;
+			left: 58px;
+			top:0;
+			margin-top: -800px;
+}
+
+/*----imagebox----*/
+		.imagebg{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.imagebg img{
+			margin-top: 200px;
+			margin-left: 540px;
+}
+/*----posterbox----*/
+		.posterbg{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.posterbg img{
+			margin-top: 90px;
+			margin-left: 660px;
+}
+
+
+/*----daolang text----*/
+		.rowPos{
+			position: absolute;		
+			
+}
+	    .text{
+			position: absolute;
+			top: 62px;
+			left: -23px;
+			font-size: 24px;			
+			
+}
+	    .text a{
+		    text-decoration: none;
+			color: #704002;
+			font-family:"DFPYuanMXBold-B5";
+}
+/*----back all ground buttom----*/
+		.backall{
+			position: absolute;
+			z-index: -1;
+			top: 50px;
+			left: 1650px;		    
+}
+		.backall:hover{
+            opacity: 0.7;
+}
+/*background*/
+		.box1 {
+		    position: absolute;
+            z-index: -1;
+		    margin-left: 0px;
+		    margin-top: 0px;
+}		
+		
+		.box2 {
+		    position: absolute;
+		    margin-left: 130px;
+		    margin-top: -10px;
+		 
+}
+/*-----------group-----------*/
+		
+/*--shrit--*/
+		#shrit{
+			position: absolute;
+			z-index: -1;
+			top: 100px;
+			left: 190px;
+			animation: floatin 2s ease-in-out infinite;
+}
+		#shrit:hover{
+            opacity: 0.85;
+}
+		#shritbox{
+			position: absolute;
+			z-index: -1;
+			left: 100px;
+			margin-top: -900px;			
+}
+/*--bunny--*/
+		#bunny{
+			position: absolute;
+			z-index: -1;
+			top: 620px;
+			left: 1067px;
+			animation: floatn 2s ease-in-out infinite;
+}
+		#bunny:hover{
+            opacity: 0.85;
+}
+		#bunnybox{
+			position: absolute;
+			z-index: -1;
+			left: 70px;
+			margin-top: -900px;
+}
+
+/*--poopie--*/
+		#poopie{
+			position: absolute;
+			z-index: -1;
+			top: 80px;
+			left: 1265px;
+			animation: floa 1.5s ease-in-out infinite;
+}
+		#poopie:hover{
+            opacity: 0.85;
+}
+		#poopiebox{
+			position: absolute;
+			z-index: -1;
+			left: 40px;
+			margin-top: -900px;
+}
+
+/*------box------*/
+/*--story&line--*/
+		.story{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 18px;
+			top: 600px;
+			left: 355px;
+}
+		.line{
+			position: absolute;
+			top: 195px;
+			left: 975px;
+			height: 318px;
+}
+		.linetext{
+			position: absolute;
+			top: 580px;
+			left: 400px;			
+}
+		.linetext2{
+			position: absolute;
+			top: 580px;
+			left: 885px;			
+}
+/*--backbutton--*/
+		.back{
+			position: absolute;
+			top: 150px;
+			left: 1350px;			
+}
+		.back:hover{
+            opacity: 0.7;
+}
+
+/*----shrit----*/
+	    .shritvideo{
+		    position: absolute;
+		    top: 195px;
+		    left: 355px;
+		    width: 560px; 
+}
+	    .shritposter{
+			position: absolute;
+			top: 195px;
+			left: 1040px;			
+}
+/*shritstory*/
+		.shritstory{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 510px;
+}
+
+/*shritCharacter*/
+		.shritstory2{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 985px;
+}
+
+/*shritimage*/
+		.shritimage{
+			position: absolute;
+			top: 600px;
+			left: 850px;
+}
+		.shritimage2{
+			position: absolute;
+			top: 700px;
+			left: 850px;
+}
+/*----bunny----*/
+	    .bunnyvideo{
+		    position: absolute;
+		    top: 195px;
+		    left: 355px;
+		    width: 560px; 
+}
+	    .bunnyposter{
+			position: absolute;
+			top: 195px;
+			left: 1040px;			
+}
+/*bunnystory*/
+		.bunnystory{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 510px;
+}
+/*bunnyCharacter*/
+		.bunnystory2{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 985px;
+}
+/*bunnyimage*/
+		.bunnyimage{
+			position: absolute;
+			top: 600px;
+			left: 850px;
+}
+		.bunnyimage2{
+			position: absolute;
+			top: 700px;
+			left: 850px;
+}
+/*----poopie----*/
+	    .poopievideo{
+		    position: absolute;
+		    top: 195px;
+		    left: 355px;
+		    width: 560px; 
+}
+	    .poopieposter{
+			position: absolute;
+			top: 195px;
+			left: 1040px;			
+}
+/*poopiestory*/
+		.poopiestory{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 510px;
+}
+/*poopieCharacter*/
+		.poopiestory2{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 985px;
+}
+/*poopieimage*/
+		.poopieimage{
+			position: absolute;
+			top: 600px;
+			left: 850px;
+}
+		.poopieimage2{
+			position: absolute;
+			top: 700px;
+			left: 850px;
+}
+		
+/*name*/
+		.name1{
+			position: absolute;
+			top: 273px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name1:hover{
+			opacity: 1;
+		}
+		.name2{
+			position: absolute;
+			top: 412px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name2:hover{
+			opacity: 1;
+		}
+		.name3{
+			position: absolute;
+			top: 552px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name3:hover{
+			opacity: 1;
+		}
+		.name4{
+			position: absolute;
+			top: 273px;
+			left: 1369px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name4:hover{
+			opacity: 1;
+		}
+		.name5{
+			position: absolute;
+			top: 412px;
+			left: 1369px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name5:hover{
+			opacity: 1;
+		}
+		.name6{
+			position: absolute;
+			top: 552px;
+			left: 1369px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name6:hover{
+			opacity: 1;
+		}
+
+
+
+
+	</style>
+	
+</head>
+
+<body>
+  <div class="container-fluid">
+	  <div class="row rowPos">
+		  <img class="box1" src="images/2D/2dbg-01.jpg" width="1920" height="1080" alt=""/>
+		  <a href="allgroup.html"><img class="backall" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>
+		  
+<!--menu button-->		  
+		  <div class="col">      
+		    <div id="rope">
+				<a href="#"><img src="images/rope-02.png" width="44" height="145" alt=""/></a>
+			</div>   		  
+			 <div id="daolang">
+				 <a href="#"><img src="images/導覽-03.png" width="129" height="735" alt=""/></a>
+				 <ul class="text">
+					 <a href="start.html"><p style="margin-left: 23px">首頁</p></a>					 
+					 <a href="school.html"><p style="margin-top: 48px">校系介紹</p></a>
+					 <a href="teacher.html"><p style="margin-top: 48px">導師簡介</p></a>
+					 <a href="annualtheme.html"><p style="margin-top: 48px">年度主題</p></a>
+					 <a href="allgroup.html"><p style="margin-top: 48px">畢業作品</p></a>
+					 <a href="student.html"><p style="margin-top: 48px">畢業學生</p></a>
+					 <a href="timeline.html"><p style="margin-top: 48px;margin-left: 10px">大事記</p></a>
+				 </ul>				 				 
+		     </div>			 
+	    </div>
+		  
+		  <div class="col">
+<!--shrit-->
+		      <div id="shrit">         
+		          <a href="#"><img src="images/2D/shrit-02.png" width="180" alt=""/></a>			 		  
+	          </div>
+<!--bunny-->
+              <div id="bunny">		    
+		          <a href="#"><img src="images/2D/bunny-02.png" width="180" alt=""/></a>			    		    
+	          </div>		 
+<!--poopie-->
+              <div id="poopie">		    
+		          <a href="#"><img src="images/2D/poopie-02.png" width="180" alt=""/></a>			    		    
+	          </div>
+		  </div>
+<!--shrit box-->		  
+		  <div class="col">
+	  	    <div id="shritbox">
+		          <img src="images/2D/shritbox-01.png" width="1600" height="896" alt=""/>
+				  <a href="#"><img class="back" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>				  
+				  <img class="line" src="images/3D/line1-02.png" alt=""/>
+                  <video class="shritvideo" width="400" controls>
+                     <source src="video/trailerfinal5se.mp4" type="video/mp4">                     
+                  </video>
+				  <a class="poster1" href="images/2D/shrit.jpg">
+					  <img class="shritposter" src="images/2D/shrit.jpg" height="315px" alt=""/>
+				  </a>
+				  <p class="shritstory">故事大綱</p>
+			      <img class="linetext" src="images/3D/line2-03.png" alt=""/>
+		          <p class="story">引用了如果衣服會像“玩具總動員”裏的角色一樣，在<br>
+					               主人不在的時候活過來，會發生什麽有趣的故事。編劇<br>
+                                   也沿用的無裏頭的劇情配合上振奮人心的打鬥畫面來演<br>
+					               繹此故事。
+				  </p>
+				  <p class="shritstory2">角色與場景</p>
+				  <img class="linetext2" src="images/3D/line2-03.png" alt=""/>
+				     <div class="shritimage">
+				         <a class="image1" href="images/2D/01.jpg"><img src="images/2D/01.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/2D/02.jpg"><img src="images/2D/02.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/2D/03.jpg"><img src="images/2D/03.jpg" width="135" alt=""/></a>
+				     </div>
+				     <div class="shritimage2">
+				         <a class="image1" href="images/2D/04.jpg"><img src="images/2D/04.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/2D/05.jpg"><img src="images/2D/05.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/2D/06.jpg"><img src="images/2D/06.jpg" width="135" alt=""/></a>
+				     </div>
+				<a href="#"><p class="name1">李嘉駿</p></a>
+				<a href="#"><p class="name2">楊淑俊</p></a>
+				<a href="#"><p class="name3">張奕展</p></a>
+				<a href="#"><p class="name4">阮建琛</p></a>
+				<a href="#"><p class="name5">翁敦利</p></a>
+				<a href="#"><p class="name6">莊偉傑</p></a>
+		    </div>
+		  </div>
+<!--bunny box-->		  
+		  <div class="col">
+	  	    <div id="bunnybox">
+		          <img src="images/2D/bunnybox-01.png" width="1600" height="896" alt=""/>
+				  <a href="#"><img class="back" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>				  
+				  <img class="line" src="images/3D/line1-02.png" alt=""/>
+                  <video class="bunnyvideo" width="400" controls>
+                     <source src="video/BunnyDreamer-第六組.mp4" type="video/mp4">                     
+                  </video>
+				  <a class="poster1" href="images/2D/bunny.jpg">
+					  <img class="bunnyposter" src="images/2D/bunny.jpg" height="315px" alt=""/>
+				  </a>
+				  <p class="bunnystory">故事大綱</p>
+			      <img class="linetext" src="images/3D/line2-03.png" alt=""/>
+		          <p class="story">劇情中的小白兔一直不斷的失敗， 可是它卻依然的堅信<br>
+					               著自己的夢想，最終小白兔成功實現自己的夢想， 這教<br>
+                                   會人們不要輕言放棄， 要相信自己的信念與力量，一直<br>
+					               堅持到底 ，最終守得雲開見明亮，一定能實現自己的夢<br>
+					               想。
+				  </p>
+				  <p class="bunnystory2">角色與場景</p>
+				  <img class="linetext2" src="images/3D/line2-03.png" alt=""/>
+				     <div class="bunnyimage">
+				         <a class="image1" href="images/2D/11.jpg"><img src="images/2D/11.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/2D/22.jpg"><img src="images/2D/22.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/2D/33.jpg"><img src="images/2D/33.jpg" width="135" alt=""/></a>
+				     </div>
+				     <div class="bunnyimage2">
+				         <a class="image1" href="images/2D/44.jpg"><img src="images/2D/44.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/2D/55.jpg"><img src="images/2D/55.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/2D/66.jpg"><img src="images/2D/66.jpg" width="135" alt=""/></a>
+				     </div>
+				<a href="#"><p class="name1">覃永輝</p></a>
+				<a href="#"><p class="name2">孫億雯</p></a>
+				<a href="#"><p class="name3">陳保求</p></a>
+				<a href="#"><p class="name4">陳康賢</p></a>
+				<a href="#"><p class="name5">梁益維</p></a>				
+		    </div>
+		  </div>
+<!--poopie box-->		  
+		  <div class="col">
+	  	    <div id="poopiebox">
+		          <img src="images/2D/poopiebox-01.png" width="1600" height="896" alt=""/>
+				  <a href="#"><img class="back" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>				  
+				  <img class="line" src="images/3D/line1-02.png" alt=""/>
+                  <video class="poopievideo" width="400" controls>
+                     <source src="video/預告final.mp4" type="video/mp4">                     
+                  </video>
+				  <a class="poster1" href="images/2D/poopielove.jpg">
+					  <img class="poopieposter" src="images/2D/poopielove.jpg" height="315px" alt=""/>
+				  </a>
+				  <p class="poopiestory">故事大綱</p>
+			      <img class="linetext" src="images/3D/line2-03.png" alt=""/>
+		          <p class="story">某天蘑菇樹那貼了一張比糞招親的公告 ，最終贏家可與<br>
+					               Peaches共度餘生，因此Milo與Horlick決定參加，比賽<br>
+                                   是回合制 ，Peaches在比賽中觀察參賽者一言一行，而<br>
+                                   後展開一系列的考驗，Milo與Horlick之間誰會獲得最終<br>
+                                   的勝利呢？是Milo還是Horlick呢？<br>                                                                      
+				  </p>
+				  <p class="poopiestory2">角色與場景</p>
+				  <img class="linetext2" src="images/3D/line2-03.png" alt=""/>
+				     <div class="poopieimage">
+				         <a class="image1" href="images/2D/1.jpg"><img src="images/2D/1.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/2D/2.jpg"><img src="images/2D/2.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/2D/3.jpg"><img src="images/2D/3.jpg" width="135" alt=""/></a>
+				     </div>
+				     <div class="poopieimage2">
+				         <a class="image1" href="images/2D/4.jpg"><img src="images/2D/4.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/2D/5.jpg"><img src="images/2D/5.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/2D/6.jpg"><img src="images/2D/6.jpg" width="135" alt=""/></a>
+				     </div>
+				<a href="#"><p class="name1">許欽淵</p></a>
+				<a href="#"><p class="name2">周采君</p></a>
+				<a href="#"><p class="name3">蔡俊澗</p></a>
+				<a href="#"><p class="name4">李佳欣</p></a>
+				<a href="#"><p class="name5">張聖傑</p></a>
+				<a href="#"><p class="name6">張靖怡</p></a>
+		    </div>
+		  </div>
+		  
+	  </div>	  
+  </div>
+ 
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+
+	
+<script>
+//shrit//	
+	$(function(){		
+		$("#shrit").click(function(){
+			$("#shritbox").addClass("bounce").animate({"marginTop":"0px"},800);
+			$(".backall").hide();			
+		})
+		$(".back").click(function(){
+			$("#shritbox").removeClass("bounce").animate({"marginTop":"-900px"},800);
+			$(".backall").show();
+		})
+	})	
+//bunny//	
+	$(function(){		
+		$("#bunny").click(function(){
+			$("#bunnybox").addClass("bounce").animate({"marginTop":"0px"},800);
+			$(".backall").hide();
+		})
+		$(".back").click(function(){
+			$("#bunnybox").removeClass("bounce").animate({"marginTop":"-900px"},800);
+			$(".backall").show();
+		})
+	})
+//poopie//	
+	$(function(){		
+		$("#poopie").click(function(){
+			$("#poopiebox").addClass("bounce").animate({"marginTop":"0px"},800);
+			$(".backall").hide();
+		})
+		$(".back").click(function(){
+			$("#poopiebox").removeClass("bounce").animate({"marginTop":"-900px"},800);
+			$(".backall").show();
+		})
+	})
+//menu//	
+	$(function(){		
+		$("#rope").click(function(){
+			$("#daolang").addClass("bounce").animate({"marginTop":"-10px"},800)			
+			$("#rope").hide();
+		})
+		$("#daolang").click(function(){
+			$("#daolang").removeClass("bounce").animate({"marginTop":"-800px"},800)
+			$("#rope").show();
+		})
+	})
+
+//imagebox//	
+	$(function(){
+	     $(".image1").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "imagebg",
+	     })
+    });
+//posterbox//	
+	$(function(){
+	     $(".poster1").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "posterbg",
+	     })
+    });
+	
+</script>
+	
+</body>
+</html>

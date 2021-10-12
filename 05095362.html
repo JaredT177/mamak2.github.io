@@ -1,0 +1,382 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mamak</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+	<style>
+		
+		@keyframes move{
+			from{top: -200px}
+			to{top: 0px}
+}
+		
+			@keyframes float{
+	           0% {		
+		           transform: translatey(-10px);
+	              }	
+				
+	           50% {		
+		           transform: translatey(0px);
+	               }
+				
+	           100% {		
+		           transform: translatey(-10px);
+	                }
+}
+/*----jump----*/	
+		.bounce{
+			animation: bounces 1.5s;
+}		
+        @keyframes bounces {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            35% {transform: translateY(-11px);}
+            60% {transform: translateY(-11px);}
+} 
+		
+		#rope{
+			position: absolute;
+			z-index: -1;
+			margin-left: 100px;
+			animation: float 2s ease-in-out infinite;
+}
+		
+		#daolang{
+			position: absolute;	
+			z-index: -1;
+			margin-top: -800px;
+			margin-left: 58px;
+}
+
+
+		 .box1 {
+		 position: absolute;
+         z-index: -1;
+		 margin-left: 0px;
+		 margin-top: 0px;         
+}
+
+		.rowPos{
+			position: absolute;		
+			
+}
+	    .text{
+			position: absolute;
+			top: 62px;
+			left: -23px;
+			font-size: 24px;			
+			
+}
+	    .text a{
+		    text-decoration: none;
+			color: #704002;
+			font-family:"DFPYuanMXBold-B5";
+}
+		.light{
+			position: absolute;
+			z-index: -1;
+			top: -10px;
+}
+/*back button*/
+		.backall{
+			position: absolute;
+			z-index: -1;
+			top: 170px;
+			left: 1720px;		    
+}
+		.backall:hover{
+            opacity: 0.7;
+}
+/*top down button*/
+		.top{
+			position: absolute;
+			z-index: -1;
+			top: 380px;
+			left: 1750px;
+}
+		.top:hover{
+			opacity: 0.7;
+}
+		.down{
+			position: absolute;
+			z-index: -1;
+			top: 480px;
+			left: 1750px;
+}
+		.down:hover{
+			opacity: 0.7;
+}
+		.mySlides {
+			display:none;
+}
+/*word*/
+		.word{
+			position: absolute;
+			text-decoration: none;
+			font-family:"DFYuanMedium-B5";
+			top: 220px;
+			left: 830px;
+			width: 900px;
+			height: 800px;
+}
+		.word p{
+			color: #F27121;			
+			font-size: 94px;
+}
+		.word h2{
+			color: #F27121;			
+			margin-top: -35px;
+			letter-spacing: 10px;
+}
+		.word h4{
+			color: #F89B30;			
+			margin-top: 5px;
+}
+		.word h1{
+			color: #F27121;
+			margin-top: 20px
+}
+		.word h5{
+			color: #F89B30;			
+			margin-top: 5px;
+}
+/*word2*/
+		.word2{
+			position: absolute;
+			text-decoration: none;
+			font-family:"DFYuanMedium-B5";
+			top: 220px;
+			left: 1250px;
+			width: 500px;
+			height: 800px;
+}
+		.word2 h1{
+			color: #F27121;
+			margin-top: 20px
+}
+		.word2 h5{
+			color: #F89B30;			
+			margin-top: 5px;
+}
+/*poster*/
+		.poster{
+			position: absolute;		
+			z-index: -1;
+			top: 190px;
+			left: 850px;
+			width: 500px;
+			height: 800px;
+}
+		.img2{
+			position: absolute;
+			left: 235px;
+			top: 0px;
+}
+		.img3{
+			position: absolute;
+			left: 455px;
+			top: 0px;
+}
+		.img4{
+			position: absolute;
+			top: 305px;
+}
+		.img5{
+			position: absolute;
+			top: 305px;
+			left: 350px;
+}
+		.img6{
+			position: absolute;
+			top: 305px;
+			left: 528px;
+}
+		.img7{
+			position: absolute;
+			top: 305px;
+			left: 705px;
+}
+		.people{
+			position: absolute;
+			z-index: -1;
+			left: 130px;
+			top: 68px
+}
+/*----imagebox----*/
+		.imagebg{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.imagebg img{
+			margin-top: 200px;
+			margin-left: 540px;
+}
+		
+/*----imagebox2----*/
+		.imagebg2{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.imagebg2 img{
+			margin-top: 80px;
+			margin-left: 660px;
+}
+	</style>
+</head>
+
+<body>
+<div class="container-fluid">
+	 <div class="row rowPos">		  
+          <img class="box1" src="images/studentimage/ksbg-01.jpg" width="1920" height="1080" alt=""/>
+		  <img class="light" src="images/studentimage/lightoff-01.png" width="500" alt=""
+			   onMouseOver="this.src='images/studentimage/light-01.png'"
+			   onMouseOut="this.src='images/studentimage/lightoff-01.png'"/>
+		 
+		  <img class="people" src="images/studentimage/herman-01.png" width="600" alt=""/>
+		 
+		  <a href="student.html"><img class="backall" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>
+		 
+<!--menu button-->		  
+		  <div class="col">      
+		    <div id="rope">
+				<a href="#"><img src="images/rope-02.png" width="44" height="145" alt=""/></a>
+			</div>   		  
+			 <div id="daolang">
+				 <a href="#"><img src="images/導覽-03.png" width="129" height="735" alt=""/></a>
+				 <ul class="text">
+					 <a href="start.html"><p style="margin-left: 23px">首頁</p></a>					 
+					 <a href="school.html"><p style="margin-top: 48px">校系介紹</p></a>
+					 <a href="teacher.html"><p style="margin-top: 48px">導師簡介</p></a>
+					 <a href="annualtheme.html"><p style="margin-top: 48px">年度主題</p></a>
+					 <a href="allgroup.html"><p style="margin-top: 48px">畢業作品</p></a>
+					 <a href="student.html"><p style="margin-top: 48px">畢業學生</p></a>
+					 <a href="timeline.html"><p style="margin-top: 48px;margin-left: 10px">大事記</p></a>
+				 </ul>				 				 
+		     </div>			 
+	    </div>
+<!--質料-->	
+			  <div class="col mySlides">			  
+				  <div class="word">
+					  <p>莊 溶 慧</p>
+					  <h2>Chng Yoong Hui</h2>
+					  <h4>Pulao Pinang Malaysia</h4>
+					  <h4>huiyoong.lassis@gmail.com</h4>
+					  <h4>畢籌會 總召</h4>
+					  <h4>105年 下學期班級班代</h4>
+					  <h4>106年 班級班代</h4>
+					  <h1>得獎記錄</h1>
+					  <h5>107年 求職防騙海報比賽 入圍</h5>
+				  </div>
+				  <div class="word2">
+					  <h1>畢業感言</h1>
+					  <h5>
+						  海青班對我來說只有一次，它的絢麗多彩是我<br>
+                          們用一生的時間所不能更改和忘卻的，回憶是<br>
+                          一件痛並快樂的事，駐足回眸兩年來的求學之<br>
+						  路，心中已是百感交集，感慨萬千，幾許苦澀<br>
+						  ，幾許甘甜。
+					  </h5>
+				  </div>
+	          </div>
+<!--作品-->	 
+		      <div class="col mySlides poster">
+				  <a class="image2" href="images/studentimage/05095362 B.jpg">
+					  <img src="images/studentimage/05095362 B.jpg" width="205" alt="">
+				  </a>
+				  <a class="image2" href="images/studentimage/05095362 C.jpg">
+					  <img class="img2" src="images/studentimage/05095362 C.jpg" width="205" alt="">
+				  </a>
+				  <a class="image1" href="images/studentimage/05095362 A.jpg">
+					  <img class="img3" src="images/studentimage/05095362 A.jpg" width="410" alt="">
+				  </a>				  
+				  <a class="image1" href="images/studentimage/05095362 G.jpg">
+					  <img class="img4" src="images/studentimage/05095362 G.jpg" width="320" alt="">
+				  </a>
+				  <a class="image2" href="images/studentimage/05095362 D.jpg">
+					  <img class="img5" src="images/studentimage/05095362 D.jpg" width="160" alt="">
+				  </a>
+				  <a class="image2" href="images/studentimage/05095362 F.jpg">
+					  <img class="img6" src="images/studentimage/05095362 F.jpg" width="160" alt="">
+				  </a>
+				  <a class="image2" href="images/studentimage/05095362 E.jpg">
+					  <img class="img7" src="images/studentimage/05095362 E.jpg" width="160" alt="">
+				  </a>
+		      </div>
+
+<!--button top down-->	  
+              <div class="col top" onclick="plusDivs(-1)">				  
+				  <a href="#"><img src="images/tongxue/buttomup-02.png" width="70" height="57" alt=""/></a>
+			  </div>
+			  
+              <div class="col down" onclick="plusDivs(1)">
+				  <a href="#"><img src="images/tongxue/buttomdown-02.png" width="70" height="57" alt=""/></a>				  
+			  </div>
+		 
+	</div>		  
+</div>	  
+	
+ 
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	
+<script>
+	
+	var slideIndex = 1;
+       showDivs(slideIndex);
+
+    function plusDivs(n) {
+       showDivs(slideIndex += n);
+}
+
+    function showDivs(n) {
+       var i;
+       var x = document.getElementsByClassName("mySlides");
+       if (n > x.length) {slideIndex = 1}    
+       if (n < 1) {slideIndex = x.length}
+       for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+       }
+       x[slideIndex-1].style.display = "block";  
+}
+
+//menu//	
+	$(function(){		
+		$("#rope").click(function(){
+			$("#daolang").addClass("bounce").animate({"marginTop":"-10px"},800)			
+			$("#rope").hide();
+		})
+		$("#daolang").click(function(){
+			$("#daolang").removeClass("bounce").animate({"marginTop":"-800px"},800)
+			$("#rope").show();
+		})
+	})
+//imagebox//	
+	$(function(){
+	     $(".image1").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "imagebg",
+	     })
+    });
+	
+//imagebox2//	
+	$(function(){
+	     $(".image2").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "imagebg2",
+	     })
+    });
+
+
+</script>	
+	
+</body>
+</html>

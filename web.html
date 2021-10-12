@@ -1,0 +1,768 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mamak</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<style>
+		
+/*----menu----*/
+		@keyframes floatin{
+	         0% {		
+		         transform: translatey(0px);
+	         }
+	         50% {		
+		         transform: translatey(-20px);
+	         }
+	         100% {		
+		         transform: translatey(0px);
+	         }
+}
+		@keyframes floatn{
+	         0% {		
+		         transform: translatey(-20px);
+	         }
+	         50% {		
+		         transform: translatey(0px);
+	         }
+	         100% {		
+		         transform: translatey(-20px);
+	         }
+}
+
+		#rope{
+			position: absolute;
+			z-index: -1;
+			left: 100px;
+			animation: float 2s ease-in-out infinite;
+}
+			@keyframes float{
+	           0% {		
+		           transform: translatey(-10px);
+	              }	
+				
+	           50% {		
+		           transform: translatey(0px);
+	               }
+				
+	           100% {		
+		           transform: translatey(-10px);
+	                }
+}
+		
+		#daolang{
+			position: absolute;
+			z-index: -1;
+			left: 58px;			
+			margin-top: -800px;
+}
+/*----jump----*/
+		.bounce{
+			animation: bounces 1.5s;
+}		
+        @keyframes bounces {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            35% {transform: translateY(-11px);}
+            60% {transform: translateY(-11px);}
+} 
+
+/*----imagebox----*/
+		.imagebg{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.imagebg img{
+			width: 1000px;
+			margin-top: 200px;
+			margin-left: 470px;
+}
+/*----posterbox----*/
+		.posterbg{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.posterbg img{
+			margin-top: 90px;
+			margin-left: 660px;
+}
+
+
+/*daolang text*/
+		.rowPos{
+			position: absolute;		
+			
+}
+	    .text{
+			position: absolute;
+			top: 62px;
+			left: -23px;
+			font-size: 24px;			
+			
+}
+	    .text a{
+		    text-decoration: none;
+			color: #704002;
+			font-family:"DFPYuanMXBold-B5";
+}
+		.backall{
+			position: absolute;
+			z-index: -1;
+			top: 50px;
+			left: 1650px;		    
+}
+		.backall:hover{
+            opacity: 0.7;
+}
+/*light*/
+		.light{
+			position: absolute;
+			z-index: -1;
+			left: 1260px
+			
+}
+/*background*/
+		.box1 {
+		    position: absolute;
+            z-index: -1;
+		    margin-left: 0px;
+		    margin-top: 0px;
+}		
+		
+		.box2 {
+		    position: absolute;
+		    margin-left: 130px;
+		    margin-top: -10px;
+		 
+}
+/*group*/
+		#oil{
+			position: absolute;
+			z-index: -1;
+			top: 350px;
+			left: 250px;
+			animation: floatin 2s ease-in-out infinite;
+}
+		#oil:hover{
+            opacity: 0.85;
+}
+		#oilbox{
+			position: absolute;
+			z-index: -1;
+			left: 150px;
+			margin-top: -900px;
+}
+		#wau{
+			position: absolute;
+			z-index: -1;
+			top: 120px;
+			left: 1115px;
+			animation: floatin 2s ease-in-out infinite;
+}
+		#wau:hover{
+            opacity: 0.85;
+}
+		#waubox{
+			position: absolute;
+			z-index: -1;
+			left: 150px;
+			margin-top: -900px;
+}
+
+		#tuoluo{
+			position: absolute;
+			z-index: -1;
+			top: 310px;
+			left: 710px;
+			animation: floatn 2s ease-in-out infinite;
+}
+		#tuoluo:hover{
+            opacity: 0.85;
+}
+		#tuoluobox{
+			position: absolute;
+			z-index: -1;
+			left: 150px;
+			margin-top: -900px;
+}
+
+/*----box----*/
+/*----story&line----*/
+		.story{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 15px;
+			top: 600px;
+			left: 355px;
+}
+		.line{
+			position: absolute;
+			top: 195px;
+			left: 975px;
+			height: 318px;
+}
+		.linetext{
+			position: absolute;
+			top: 580px;
+			left: 400px;			
+}
+		.linetext2{
+			position: absolute;
+			top: 580px;
+			left: 885px;			
+}
+
+/*backbutton*/
+		.back{
+			position: absolute;
+			top: 150px;
+			left: 1350px;			
+}
+		.back:hover{
+            opacity: 0.7;
+}
+/*oil*/
+	    .oilvideo{
+		    position: absolute;
+		    top: 195px;
+		    left: 355px;
+		    width: 560px; 
+}
+	    .oilposter{
+			position: absolute;
+			top: 195px;
+			left: 1040px;			
+}
+/*oilstory*/
+		.oilstory{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 510px;
+}
+
+/*oil web design*/
+		.oilstory2{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 985px;
+}
+
+/*oilimage*/
+		.oilimage{
+			position: absolute;
+			top: 600px;
+			left: 850px;
+}
+		.oilimage2{
+			position: absolute;
+			top: 722px;
+			left: 850px;
+}
+		
+/*wau*/
+	    .wauvideo{
+		    position: absolute;
+		    top: 195px;
+		    left: 355px;
+		    width: 560px; 
+}
+	    .wauposter{
+			position: absolute;
+			top: 195px;
+			left: 1040px;			
+}
+/*waustory*/
+		.waustory{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 525px;
+}
+		.waulinetext{
+			position: absolute;
+			top: 580px;
+			left: 415px;			
+}
+/*wau web design*/
+		.waustory2{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 985px;
+}
+		.waulinetext2{
+			position: absolute;
+			top: 580px;
+			left: 885px;			
+}
+/*wauimage*/
+		.wauimage{
+			position: absolute;
+			top: 600px;
+			left: 850px;
+}
+		.wauimage2{
+			position: absolute;
+			top: 722px;
+			left: 850px;
+}
+		
+/*tuoluo*/
+	    .tuoluovideo{
+		    position: absolute;
+		    top: 195px;
+		    left: 355px;
+		    width: 560px; 
+}
+	    .tuoluoposter{
+			position: absolute;
+			top: 195px;
+			left: 1040px;			
+}
+/*tuoluostory*/
+		.tuoluostory{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 520px;
+}
+		.tuoluolinetext{
+			position: absolute;
+			top: 580px;
+			left: 410px;			
+}
+/*tuoluo web design*/
+		.tuoluostory2{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 985px;
+}
+		.tuoluolinetext2{
+			position: absolute;
+			top: 580px;
+			left: 885px;			
+}
+/*tuoluoimage*/
+		.tuoluoimage{
+			position: absolute;
+			top: 600px;
+			left: 850px;
+}
+		.tuoluoimage2{
+			position: absolute;
+			top: 718px;
+			left: 850px;
+}
+	
+/*name*/
+		.name1{
+			position: absolute;
+			top: 305px;
+			left: 123px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name1:hover{
+			opacity: 1;
+		}
+		.name2{
+			position: absolute;
+			top: 495px;
+			left: 123px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name2:hover{
+			opacity: 1;
+		}
+		.name3{
+			position: absolute;
+			top: 305px;
+			left: 1367px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name3:hover{
+			opacity: 1;
+		}
+		.name4{
+			position: absolute;
+			top: 495px;
+			left: 1367px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name4:hover{
+			opacity: 1;
+		}
+		.name5{
+			position: absolute;
+			top: 295px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name5:hover{
+			opacity: 1;
+		}
+		.name6{
+			position: absolute;
+			top: 435px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name6:hover{
+			opacity: 1;
+		}
+		.name7{
+			position: absolute;
+			top: 573px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name7:hover{
+			opacity: 1;
+		}
+
+
+	</style>
+</head>
+
+<body>
+  <div class="container-fluid">
+	  <div class="row rowPos">
+		  <img class="box1" src="images/web/weebbg-01.png" width="1920" height="1080" alt=""/>
+		  <img class="light" src="images/web/lightoff-01.png" width="650" alt=""
+			   onMouseOver="this.src='images/web/lighton-01.png'"
+			   onMouseOut="this.src='images/web/lightoff-01.png'"/>
+		  <a href="allgroup.html"><img class="backall" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>
+		  
+<!--menu button-->		  
+		  <div class="col">      
+		    <div id="rope">
+				<a href="#"><img src="images/rope-02.png" width="44" height="145" alt=""/></a>
+			</div>   		  
+			 <div id="daolang">
+				 <a href="#"><img src="images/導覽-03.png" width="129" height="735" alt=""/></a>
+				 <ul class="text">
+					 <a href="start.html"><p style="margin-left: 23px">首頁</p></a>					 
+					 <a href="school.html"><p style="margin-top: 48px">校系介紹</p></a>
+					 <a href="teacher.html"><p style="margin-top: 48px">導師簡介</p></a>
+					 <a href="annualtheme.html"><p style="margin-top: 48px">年度主題</p></a>
+					 <a href="allgroup.html"><p style="margin-top: 48px">畢業作品</p></a>
+					 <a href="student.html"><p style="margin-top: 48px">畢業學生</p></a>
+					 <a href="timeline.html"><p style="margin-top: 48px;margin-left: 10px">大事記</p></a>
+				 </ul>				 				 
+		     </div>			 
+	    </div>
+		  
+		  <div class="col">
+<!--oil-->
+		      <div id="oil">         
+		          <a href="#"><img src="images/web/Go sawit button-02.png" width="200" alt=""/></a>			 		  
+	          </div>
+<!--wau-->
+              <div id="wau">		    
+		          <a href="#"><img src="images/web/wau-02.png" width="200" alt=""/></a>			    		    
+	          </div>
+		  </div>
+<!--tuoluo-->
+              <div id="tuoluo">		    
+		          <a href="#"><img src="images/web/tuoluo-02.png" width="200" alt=""/></a>			    		    
+	          </div>
+		  </div>
+<!--oil box-->		  
+		  <div class="col">
+	  	    <div id="oilbox">
+		          <img src="images/web/oilbox-01.png" width="1600" height="896" alt=""/>
+				  <a href="#"><img class="back" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>				  
+				  <img class="line" src="images/3D/line1-02.png" alt=""/>
+                  <video class="oilvideo" width="400" controls>
+                     <source src="video/website teaser 1202.mp4" type="video/mp4">                     
+                  </video>
+				  <a class="poster1" href="images/web/oil poster.jpg">
+					  <img class="oilposter" src="images/web/oil poster.jpg" height="315px" alt=""/>
+				  </a>
+				  <p class="oilstory">製作動機</p>
+			      <img class="linetext" src="images/3D/line2-03.png" alt=""/>
+		          <p class="story">油棕樹，作爲馬來西亞國寶之一， 它在本國的經濟地位名副其實與<br>
+					               高尚,而且擁有“植物界瑞士刀”的美稱，雖然如此，人們對於油棕<br>
+                                   樹的常識少之又少， 因此想要讓大家更深一步瞭解油棕樹在本國的<br>
+                                   重要性，利用自身的設計創意和知識， 時尚簡單的網頁設計，介紹<br>
+                                   油棕樹的種植與收割過程和它的用途， 並且告訴人們油棕樹全身都<br>
+                                   是很珍貴的。<br>
+				  </p>
+				  <p class="oilstory2">網頁版型設計</p>
+				  <img class="linetext2" src="images/3D/line2-03.png" alt=""/>
+				     <div class="oilimage">
+						 <a class="image1" href="images/web/01首頁_工作區域 1.jpg">
+							 <img src="images/web/01首頁_工作區域 1.jpg" width="210" alt=""/>
+						 </a>
+						 <a class="image1" href="images/web/02發展起源1980_工作區域 1.jpg">
+							 <img src="images/web/02發展起源1980_工作區域 1.jpg" width="210" alt=""/>
+						 </a>					 											 
+				     </div>
+				     <div class="oilimage2">
+                         <a class="image1" href="images/web/03種植頁_工作區域 1.jpg">
+							 <img src="images/web/03種植頁_工作區域 1.jpg" width="138" alt=""/>
+						 </a>
+						 <a class="image1" href="images/web/04天敵頁_工作區域 1.jpg">
+							 <img style="margin-left: 1px" src="images/web/04天敵頁_工作區域 1.jpg" width="138" alt=""/>
+						 </a>
+						 <a class="image1" href="images/web/05團隊介紹_工作區域 1.jpg">
+							 <img src="images/web/05團隊介紹_工作區域 1.jpg" width="138" alt=""/>
+						 </a>
+				     </div>
+				<a href="#"><p class="name1">楊順德</p></a>
+				<a href="#"><p class="name2">林子煇</p></a>
+				<a href="#"><p class="name3">駱建維</p></a>
+				<a href="#"><p class="name4">陳家茂</p></a>
+		    </div>
+		  </div>
+<!--wau box-->		  
+		  <div class="col">
+	  	    <div id="waubox">
+		          <img src="images/web/waubox-01.png" width="1600" height="896" alt=""/>
+				  <a href="#"><img class="back" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>				  
+				  <img class="line" src="images/3D/line1-02.png" alt=""/>
+                  <video class="wauvideo" width="400" controls>
+                     <source src="video/第十組_馬來傳統風箏預告.mp4" type="video/mp4">                     
+                  </video>
+				  <a class="poster1" href="images/web/wau.jpg">
+					  <img class="wauposter" src="images/web/wau.jpg" height="315px" alt=""/>
+				  </a>
+				  <p class="waustory">製作動機</p>
+			      <img class="waulinetext" src="images/3D/line2-03.png" alt=""/>
+		          <p class="story">Wau一詞指的是馬來傳統風箏，馬來風箏最常見是月牙形狀的“Wau<br>
+					               Bulan”，中文叫月亮風箏，馬來傳統風箏都是手工製作， 好的風箏<br>
+                                   好的風箏必需輕巧又美麗，一般傳統風箏體積都很大， 需要至少兩人<br>
+                                   操縱，放到一定的高度後可自行飛翔， 傳統風箏造型靈感多來自於動<br>
+                                   物有很多像鳥類，有的像船，但都不失月牙形的特點， 對於馬來西亞<br>
+                                   來説，放風箏既是一種游戲也是一種運動， 但馬來傳統風箏在這個世<br>
+                                   代因缺乏新世代傳承風箏製作技藝， 馬來傳統風箏恐成爲下一個失傳<br>
+                                   的傳統文化，因此想藉由本專題介紹， 讓更多人知道馬來傳統風箏的<br>
+                                   美麗。
+				  </p>
+				  <p class="waustory2">網頁版型設計</p>
+				  <img class="waulinetext2" src="images/3D/line2-03.png" alt=""/>
+				     <div class="wauimage">
+						 <a class="image1" href="images/web/1.jpg">
+							 <img src="images/web/1.jpg" width="210" alt=""/>
+						 </a>
+						 <a class="image1" href="images/web/2.jpg">
+							 <img src="images/web/2.jpg" width="210" alt=""/>
+						 </a>						 											 
+				     </div>
+				     <div class="wauimage2">
+                         <a class="image1" href="images/web/3.jpg">
+							 <img src="images/web/3.jpg" width="138" alt=""/>
+						 </a>
+						 <a class="image1" href="images/web/4.jpg">
+							 <img style="margin-left: 1px" src="images/web/4.jpg" width="138" alt=""/>
+						 </a>
+						 <a class="image1" href="images/web/5.jpg">
+							 <img src="images/web/5.jpg" width="138" alt=""/>
+						 </a>
+				     </div>
+				<a href="#"><p class="name1">林宏瀚</p></a>
+				<a href="#"><p class="name2">陳彩霞</p></a>
+				<a href="#"><p class="name3">劉家敏</p></a>
+				<a href="#"><p class="name4">陳煒坤</p></a>
+		    </div>
+		  </div>
+<!--tuoluo box-->		  
+		  <div class="col">
+	  	    <div id="tuoluobox">
+		          <img src="images/web/tuoluobox-01.png" width="1600" height="896" alt=""/>
+				  <a href="#"><img class="back" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>				  
+				  <img class="line" src="images/3D/line1-02.png" alt=""/>
+                  <video class="tuoluovideo" width="400" controls>
+                     <source src="video/第11組-三峽定點陀螺隊-最終預告片.mp4" type="video/mp4">                     
+                  </video>
+				  <a class="poster1" href="images/web/tuoluo poster.jpg">
+					  <img class="tuoluoposter" src="images/web/tuoluo poster.jpg" height="315px" alt=""/>
+				  </a>
+				  <p class="tuoluostory">製作動機</p>
+			      <img class="tuoluolinetext" src="images/3D/line2-03.png" alt=""/>
+		          <p class="story">陀螺，從遠古流傳至今的民間傳統遊戲， 它在經歷了無數風風雨雨<br>
+					               後才演變出今日我們所見的陀螺，然而在現今的3C產品普及化的時<br>
+                                   代裡， 年輕一代的人都早已不重視這項民間傳統遊戲；然而卻還有<br>
+                                   一群人依舊在延續這項傳統遊戲的傳承， 他們經過多年改良，研發<br>
+                                   出定點陀螺，自製道具， 用高超的技術表演使其定點陀螺隊的名聲<br>
+                                   傳遍至世界各地，賜予了陀螺這項傳統民間童玩再次遠揚的機會，<br>
+                                   他們就是『三峽定點陀螺隊』。
+				  </p>
+				  <p class="tuoluostory2">網頁版型設計</p>
+				  <img class="tuoluolinetext2" src="images/3D/line2-03.png" alt=""/>
+				     <div class="tuoluoimage">
+						 <a class="image1" href="images/web/01.jpg">
+							 <img src="images/web/01.jpg" width="210" alt=""/>
+						 </a>
+						 <a class="image1" href="images/web/02.jpg">
+							 <img src="images/web/02.jpg" width="210" alt=""/>
+						 </a>						 											 
+				     </div>
+				     <div class="tuoluoimage2">
+                         <a class="image1" href="images/web/03.jpg">
+							 <img src="images/web/03.jpg" width="138" alt=""/>
+						 </a>
+						 <a class="image1" href="images/web/04.jpg">
+							 <img style="margin-left: 1px" src="images/web/04.jpg" width="138" alt=""/>
+						 </a>
+						 <a class="image1" href="images/web/05.jpg">
+							 <img src="images/web/05.jpg" width="138" alt=""/>
+						 </a>
+				     </div>
+				<a href="#"><p class="name5">蘇靖頤</p></a>
+				<a href="#"><p class="name6">劉俊霆</p></a>
+				<a href="#"><p class="name7">陳楷捷</p></a>
+		    </div>
+		  </div>
+		  
+ </div>	  
+  
+ 
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	
+<script>
+//oil//
+	$(function(){		
+		$("#oil").click(function(){
+			$("#oilbox").addClass("bounce").animate({"marginTop":"0px"},800);
+			$(".backall").hide();
+		})
+		$(".back").click(function(){
+			$("#oilbox").removeClass("bounce").animate({"marginTop":"-900px"},800);
+			$(".backall").show();			
+		})
+	})
+//wau//	
+	$(function(){		
+		$("#wau").click(function(){
+			$("#waubox").addClass("bounce").animate({"marginTop":"0px"},800);
+			$(".backall").hide();
+		})
+		$(".back").click(function(){
+			$("#waubox").removeClass("bounce").animate({"marginTop":"-900px"},800);
+			$(".backall").show();
+		})
+	})
+//tuoluo//	
+	$(function(){		
+		$("#tuoluo").click(function(){
+			$("#tuoluobox").addClass("bounce").animate({"marginTop":"0px"},800);
+			$(".backall").hide();
+		})
+		$(".back").click(function(){
+			$("#tuoluobox").removeClass("bounce").animate({"marginTop":"-900px"},800);
+			$(".backall").show();
+		})
+	})
+	
+//menu//	
+	$(function(){		
+		$("#rope").click(function(){
+			$("#daolang").addClass("bounce").animate({"marginTop":"-10px"},800)
+			$("#rope").hide();
+		})
+		$("#daolang").click(function(){
+			$("#daolang").removeClass("bounce").animate({"marginTop":"-800px"},800)
+			$("#rope").show();
+		})
+	})
+
+//imagebox//	
+	$(function(){
+	     $(".image1").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "imagebg",
+	     })
+    });
+//posterbox//	
+	$(function(){
+	     $(".poster1").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "posterbg",
+	     })
+    });
+
+</script>
+	
+</body>
+</html>

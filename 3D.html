@@ -1,0 +1,587 @@
+<!doctype html>
+<html class="animated fadeIn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mamak</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+	<style>
+		
+
+		@keyframes floatin{
+	         0% {		
+		         transform: translatey(0px);
+	         }
+	         50% {		
+		         transform: translatey(-20px);
+	         }
+	         100% {		
+		         transform: translatey(0px);
+	         }
+}
+		@keyframes floatn{
+	         0% {		
+		         transform: translatey(-20px);
+	         }
+	         50% {		
+		         transform: translatey(0px);
+	         }
+	         100% {		
+		         transform: translatey(-20px);
+	         }
+}
+/*----jump----*/	
+		.bounce{
+			animation: bounces 1.5s;
+}		
+        @keyframes bounces {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            35% {transform: translateY(-11px);}
+            60% {transform: translateY(-11px);}
+} 
+
+/*----menu----*/		
+		#rope{
+			position: absolute;
+			z-index: -1;
+			left: 100px;
+			animation: float 2s ease-in-out infinite;
+}
+			@keyframes float{
+	           0% {		
+		           transform: translatey(-10px);
+	              }	
+				
+	           50% {		
+		           transform: translatey(0px);
+	               }
+				
+	           100% {		
+		           transform: translatey(-10px);
+	                }
+}
+		
+		#daolang{
+			position: absolute;	
+			z-index: -1;
+			left: 58px;
+			top:0;
+			margin-top: -800px;
+}
+
+/*----imagebox----*/
+		.imagebg{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.imagebg img{
+			margin-top: 200px;
+			margin-left: 540px;
+}
+/*----posterbox----*/
+		.posterbg{
+			position: absolute;
+			background-color:rgba(0, 0, 0, 0.4);
+			width: 1920px;
+			height: 1080px;
+}
+		.posterbg img{
+			margin-top: 90px;
+			margin-left: 660px;
+}
+
+
+/*----daolang text----*/
+		.rowPos{
+			position: absolute;		
+			
+}
+	    .text{
+			position: absolute;
+			top: 62px;
+			left: -23px;
+			font-size: 24px;			
+			
+}
+	    .text a{
+		    text-decoration: none;
+			color: #704002;
+			font-family:"DFPYuanMXBold-B5";
+}
+/*----back all ground buttom----*/
+		.backall{
+			position: absolute;
+			z-index: -1;
+			top: 50px;
+			left: 1650px;		    
+}
+		.backall:hover{
+            opacity: 0.7;
+}
+/*background*/
+		.box1 {
+		    position: absolute;
+            z-index: -1;
+		    margin-left: 0px;
+		    margin-top: 0px;
+}		
+		
+		.box2 {
+		    position: absolute;
+		    margin-left: 130px;
+		    margin-top: -10px;
+		 
+}
+/*-----------group-----------*/
+		
+/*--herman--*/
+		#herman{
+			position: absolute;
+			z-index: -1;
+			top: 350px;
+			left: 330px;
+			animation: floatin 2s ease-in-out infinite;
+}
+		#herman:hover{
+            opacity: 0.85;
+}
+		#hermanbox{
+			position: absolute;
+			z-index: -1;
+			left: 100px;
+			margin-top: -900px;			
+}
+/*--pig--*/
+		#pig{
+			position: absolute;
+			z-index: -1;
+			top: 520px;
+			left: 1456px;
+			animation: floatn 2s ease-in-out infinite;
+}
+		#pig:hover{
+            opacity: 0.85;
+}
+		#pigbox{
+			position: absolute;
+			z-index: -1;
+			left: 70px;
+			margin-top: -900px;
+}
+
+/*------box------*/
+/*------story&line------*/
+		.story{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 15px;
+			top: 600px;
+			left: 355px;
+}
+		.line{
+			position: absolute;
+			top: 195px;
+			left: 975px;
+			height: 318px;
+}
+		.linetext{
+			position: absolute;
+			top: 580px;
+			left: 400px;			
+}
+		.linetext2{
+			position: absolute;
+			top: 580px;
+			left: 885px;			
+}
+/*--backbutton--*/
+		.back{
+			position: absolute;
+			top: 150px;
+			left: 1350px;			
+}
+		.back:hover{
+            opacity: 0.7;
+}
+/*----heman----*/
+	    .hermanvideo{
+		    position: absolute;
+		    top: 195px;
+		    left: 355px;
+		    width: 560px; 
+}
+	    .hermanposter{
+			position: absolute;
+			top: 195px;
+			left: 1040px;			
+}
+/*hemanstory*/
+		.hermanstory{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 510px;
+}
+
+/*hemanCharacter*/
+		.hermanstory2{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 985px;
+}
+
+/*hermanimage*/
+		.hermanimage{
+			position: absolute;
+			top: 600px;
+			left: 850px;
+}
+		.hermanimage2{
+			position: absolute;
+			top: 700px;
+			left: 850px;
+}
+
+/*----pig----*/
+	    .pigvideo{
+		    position: absolute;
+		    top: 195px;
+		    left: 355px;
+		    width: 560px; 
+}
+	    .pigposter{
+			position: absolute;
+			top: 195px;
+			left: 1040px;			
+}
+/*pigstory*/
+		.pigstory{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 510px;
+}
+
+/*pigCharacter*/
+		.pigstory2{
+			position: absolute;
+		    text-decoration: none;
+			color: #FFFFFF;
+			font-family:"DFPYuanMXBold-B5";
+			font-size: 30px;
+			top: 530px;
+			left: 985px;
+}
+
+/*pigimage*/
+		.pigimage{
+			position: absolute;
+			top: 600px;
+			left: 850px;
+}
+		.pigimage2{
+			position: absolute;
+			top: 700px;
+			left: 850px;
+}
+		
+/*name*/
+		.name1{
+			position: absolute;
+			top: 273px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name1:hover{
+			opacity: 1;
+		}
+		.name2{
+			position: absolute;
+			top: 412px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name2:hover{
+			opacity: 1;
+		}
+		.name3{
+			position: absolute;
+			top: 552px;
+			left: 125px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name3:hover{
+			opacity: 1;
+		}
+		.name4{
+			position: absolute;
+			top: 273px;
+			left: 1369px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name4:hover{
+			opacity: 1;
+		}
+		.name5{
+			position: absolute;
+			top: 412px;
+			left: 1369px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name5:hover{
+			opacity: 1;
+		}
+		.name6{
+			position: absolute;
+			top: 552px;
+			left: 1369px;
+			font-size: 24px;			
+			text-align: center;
+			line-height: 120px;
+			color: #FFFFFF;
+			opacity: 0;
+			width:118px;height:118px;
+            border-radius:999em;
+            background-color:rgba(0,0,0,0.5);
+		}
+		.name6:hover{
+			opacity: 1;
+		}
+
+	</style>
+	
+</head>
+
+<body>
+  <div class="container-fluid">
+	  <div class="row rowPos">
+		  <img class="box1" src="images/3D/3dbg-01.jpg" width="1920" height="1080" alt=""/>
+		  <a href="allgroup.html"><img class="backall" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>
+		  
+<!--menu button-->		  
+		  <div class="col">      
+		    <div id="rope">
+				<a href="#"><img src="images/rope-02.png" width="44" height="145" alt=""/></a>
+			</div>   		  
+			 <div id="daolang">
+				 <a href="#"><img src="images/導覽-03.png" width="129" height="735" alt=""/></a>
+				 <ul class="text">
+					 <a href="start.html"><p style="margin-left: 23px">首頁</p></a>					 
+					 <a href="school.html"><p style="margin-top: 48px">校系介紹</p></a>
+					 <a href="teacher.html"><p style="margin-top: 48px">導師簡介</p></a>
+					 <a href="annualtheme.html"><p style="margin-top: 48px">年度主題</p></a>
+					 <a href="allgroup.html"><p style="margin-top: 48px">畢業作品</p></a>
+					 <a href="student.html"><p style="margin-top: 48px">畢業學生</p></a>
+					 <a href="timeline.html"><p style="margin-top: 48px;margin-left: 10px">大事記</p></a>
+				 </ul>				 				 
+		     </div>			 
+	    </div>
+		  
+		  <div class="col">
+<!--herman-->
+		      <div id="herman">         
+		          <a href="#"><img src="images/3D/herman-02.png" width="236" height="136" alt=""/></a>			 		  
+	          </div>
+<!--pig-->
+              <div id="pig">		    
+		          <a href="#"><img src="images/3D/pig-02.png" width="236" height="136" alt=""/></a>			    		    
+	          </div>
+		  </div>
+<!--herman box-->		  
+		  <div class="col">
+	  	    <div id="hermanbox">				  
+		          <img src="images/3D/hermanbox-01.png" width="1600" height="896" alt=""/>
+				  <a href="#"><img class="back" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>				  
+				  <img class="line" src="images/3D/line1-02.png" alt=""/>
+                  <video class="hermanvideo" width="400" controls>
+                     <source src="video/第五組 - Herman - 預告片.mp4" type="video/mp4">                     
+                  </video>
+				  <a class="poster1" href="images/3D/hermanposter-01.jpg">
+					  <img class="hermanposter" src="images/3D/hermanposter-01.jpg" height="315px" alt=""/>
+				  </a>
+				  <p class="hermanstory">故事大綱</p>
+			      <img class="linetext" src="images/3D/line2-03.png" alt=""/>
+		          <p class="story">從前有個小男孩名叫卡爾，和媽媽住在一起，媽媽常常會帶著卡爾<br>
+					               到附近的教堂坐著，手裡總是握著一條軍牌，卡爾詢問媽媽為什麼<br>
+                                   常常來教堂，看著那條軍牌發呆，這時，媽媽告訴了卡爾一段故事<br>
+                                   ，卡爾爸爸身為軍醫，在媽媽還懷著他的時候被召集入伍，離開了<br>
+                                   家，軍營被敵軍突襲，爸爸為了救人，不幸被炸死，一位軍人給媽<br>
+                                   媽帶來了爸爸的死訊， 以及爸爸的遺物-軍牌， 卡爾覺得爸爸很偉<br>
+                                   大，立志長大後也要像爸爸一樣當軍醫，救助更多的人。
+				  </p>
+				  <p class="hermanstory2">角色與場景</p>
+				  <img class="linetext2" src="images/3D/line2-03.png" alt=""/>
+				     <div class="hermanimage">
+				         <a class="image1" href="images/3D/1.jpg"><img src="images/3D/1.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/3D/2.jpg"><img src="images/3D/2.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/3D/3.jpg"><img src="images/3D/3.jpg" width="135" alt=""/></a>
+				     </div>
+				     <div class="hermanimage2">
+				         <a class="image1" href="images/3D/4.jpg"><img src="images/3D/4.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/3D/5.jpg"><img src="images/3D/5.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/3D/6.jpg"><img src="images/3D/6.jpg" width="135" alt=""/></a>
+				     </div>
+				<a href="#"><p class="name1">麥家維</p></a>
+				<a href="#"><p class="name2">鄭芷涵</p></a>
+				<a href="#"><p class="name3">許書棋</p></a>
+				<a href="#"><p class="name4">莊溶慧</p></a>
+				<a href="#"><p class="name5">陳蔚倩</p></a>
+				<a href="#"><p class="name6">林羽欣</p></a>
+		    </div>
+		  </div>
+<!--pig box-->		  
+		  <div class="col">
+	  	    <div id="pigbox">
+		          <img src="images/3D/pigbox-01.png" width="1600" height="896" alt=""/>
+				  <a href="#"><img class="back" src="images/3D/backbuttom-02.png" width="150" alt=""/></a>				  
+				  <img class="line" src="images/3D/line1-02.png" alt=""/>
+                  <video class="pigvideo" width="400" controls>
+                     <source src="video/第四組-Pig Yeah 預告.mp4" type="video/mp4">                     
+                  </video>
+				  <a class="poster1" href="images/3D/pigposter.jpg">
+					  <img class="pigposter" src="images/3D/pigposter.jpg" height="315px" alt=""/>
+				  </a>
+				  <p class="pigstory">故事大綱</p>
+			      <img class="linetext" src="images/3D/line2-03.png" alt=""/>
+		          <p class="story">可愛的傻白萌小豬一起床就開開心心地下樓吃早餐，吃著吃著發現<br>
+					               了報紙上有他最喜歡的明星偶像，他內心非常興奮與激動想要與他<br>
+                                   的偶像見面，但是小豬卻因為自己肥嘟嘟的身材而感到非常自卑，<br>
+                                   他卻沒有因此而自暴自棄，而是展開了魔鬼式減肥運動。如此努力<br>
+                                   的小豬，他的減肥計劃究竟會不會如他所願的成功？最終他又會不<br>
+                                   會順利地見到日思夜想的偶像嗎？                                   
+				  </p>
+				  <p class="pigstory2">角色與場景</p>
+				  <img class="linetext2" src="images/3D/line2-03.png" alt=""/>
+				     <div class="pigimage">
+				         <a class="image1" href="images/3D/01.jpg"><img src="images/3D/01.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/3D/03.jpg"><img src="images/3D/03.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/3D/04.jpg"><img src="images/3D/04.jpg" width="135" alt=""/></a>
+				     </div>
+				     <div class="pigimage2">
+				         <a class="image1" href="images/3D/05.jpg"><img src="images/3D/05.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/3D/07.jpg"><img src="images/3D/07.jpg" width="135" alt=""/></a>
+						 <a class="image1" href="images/3D/08.jpg"><img src="images/3D/08.jpg" width="135" alt=""/></a>
+				     </div>
+				<a href="#"><p class="name1">鄭勝財</p></a>
+				<a href="#"><p class="name2">彭凱信</p></a>
+				<a href="#"><p class="name3">陳良全</p></a>
+				<a href="#"><p class="name4">曽紫淇</p></a>
+				<a href="#"><p class="name5">歐姵妗</p></a>
+				<a href="#"><p class="name6">潘韻妃</p></a>
+		    </div>
+		  </div>
+		  
+	  </div>	  
+  </div>
+ 
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+
+	
+<script>
+//herman//	
+	$(function(){		
+		$("#herman").click(function(){
+			$("#hermanbox").addClass("bounce").animate({"marginTop":"0px"},800);
+			$(".backall").hide();			
+		})
+		$(".back").click(function(){
+			$("#hermanbox").removeClass("bounce").animate({"marginTop":"-900px"},800);
+			$(".backall").show();
+		})
+	})	
+//pig//	
+	$(function(){		
+		$("#pig").click(function(){
+			$("#pigbox").addClass("bounce").animate({"marginTop":"0px"},800);
+			$(".backall").hide();
+		})
+		$(".back").click(function(){
+			$("#pigbox").removeClass("bounce").animate({"marginTop":"-900px"},800);
+			$(".backall").show();
+		})
+	})
+//menu//	
+	$(function(){		
+		$("#rope").click(function(){
+			$("#daolang").addClass("bounce").animate({"marginTop":"-10px"},800)			
+			$("#rope").hide();
+		})
+		$("#daolang").click(function(){
+			$("#daolang").removeClass("bounce").animate({"marginTop":"-800px"},800)
+			$("#rope").show();
+		})
+	})
+
+//imagebox//	
+	$(function(){
+	     $(".image1").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "imagebg",
+	     })
+    });
+//posterbox//	
+	$(function(){
+	     $(".poster1").magnificPopup({
+		     type: "image",
+		     closeOnContentClick: true,			 
+			 mainClass: "posterbg",
+	     })
+    });
+	
+</script>
+	
+</body>
+</html>
